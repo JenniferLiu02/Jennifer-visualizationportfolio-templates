@@ -11,20 +11,15 @@ It's always helpful to keep track of your web URL.  Consider putting that somewh
 This is my public portfolio for Telling Stories with Data at CMU!  Here's where all my cool work will go.  You should probably hire me. 
 
 # About me
-Hi!  I really like data.  And I like visualizations.  So I guess you can say that I like data visualizations!
+Hi, I'm Jennifer Liu, a graduate student at Carnegie Mellon University's Heinz College, pursuing a Master of Information Systems Management with a concentration in Business Intelligence and Data Analytics (MISM-BIDA), expected to graduate in December 2026.
+
+Before CMU, I studied Supply Chain Management with a minor in Statistics at Rutgers University. That background shapes how I approach data. I like connecting numbers back to real operational decisions, not just building charts for their own sake.
+
 
 # What I hope to learn
-All the things - obviously. Maybe I want to make a list of all the things.  If so, I can do so in Markdown like this: 
+I'm looking to sharpen my ability to turn raw data into visuals that actually persuade and inform — not just ones that look polished. Coming from a supply chain and statistics background, I want to get better at the design side of analytics: choosing the right chart type, using color and layout intentionally, and communicating findings to non-technical audiences.
 
-1. List item #1
-2. List item #2
-3. List item #3
-
-or...
-
-- List item #1
-- List item #2
-- List item #3
+After graduating, I'm targeting roles in Data Analytics, Business Intelligence, and Supply Chain Analytics, in both the U.S. and Chinese markets. I hope this course gives me a portfolio of concrete, defensible design decisions I can point to in interviews.
 
 # Portfolio
 
