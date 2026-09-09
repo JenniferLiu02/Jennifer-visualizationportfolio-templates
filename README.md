@@ -28,73 +28,20 @@ You can keep this section for stuff from in-class demos or your other work, or r
 
 ## Assignment: [Visualizing Government Debt](https://public.tableau.com/app/profile/jennifer.liu4619/viz/OECDDebttoGDPRatios1995-2019_17889178234160/Sheet1)
 
-<div class='tableauPlaceholder' id='viz1788921284307' style='position: relative'>
-  <noscript>
-    <a href='https://public.tableau.com/app/profile/jennifer.liu4619/viz/OECDDebttoGDPRatios1995-2019_17889178234160/Sheet1'>
-      <img alt='OECD General Government Debt as a Percentage of GDP, 1995–2019' src='https://public.tableau.com/static/images/OE/OECDDebttoGDPRatios1995-2019_17889178234160/Sheet1/1_rss.png' style='border: none' />
-    </a>
-  </noscript>
-  <object class='tableauViz' style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-    <param name='embed_code_version' value='3' />
-    <param name='site_root' value='' />
-    <param name='name' value='OECDDebttoGDPRatios1995-2019_17889178234160/Sheet1' />
-    <param name='tabs' value='no' />
-    <param name='toolbar' value='yes' />
-    <param name='static_image' value='https://public.tableau.com/static/images/OE/OECDDebttoGDPRatios1995-2019_17889178234160/Sheet1/1.png' />
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-    <param name='language' value='en-US' />
-    <param name='filter' value='publish=yes' />
-  </object>
-</div>
-<script type='text/javascript'>
-  var divElement = document.getElementById('viz1788921284307');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width='100%';
-  vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
+### Part 2: Exploratory Heatmap
+[![OECD Debt Heatmap](https://public.tableau.com/static/images/OE/OECDDebttoGDPRatios1995-2019_17889178234160/Sheet1/1.png)](https://public.tableau.com/app/profile/jennifer.liu4619/viz/OECDDebttoGDPRatios1995-2019_17889178234160/Sheet1)
+*Click the heatmap above to interact with the full visualization on Tableau Public.*
 
 <br/>
 
-<div class='tableauPlaceholder' id='viz1788921199453' style='position: relative'>
-  <noscript>
-    <a href='https://public.tableau.com/app/profile/jennifer.liu4619/viz/OECDDebttoGDPRatios2019/Sheet12'>
-      <img alt='OECD Government Debt-to-GDP Ratios in 2019' src='https://public.tableau.com/static/images/OE/OECDDebttoGDPRatios2019/Sheet12/1_rss.png' style='border: none' />
-    </a>
-  </noscript>
-  <object class='tableauViz' style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-    <param name='embed_code_version' value='3' />
-    <param name='site_root' value='' />
-    <param name='name' value='OECDDebttoGDPRatios2019/Sheet12' />
-    <param name='tabs' value='no' />
-    <param name='toolbar' value='yes' />
-    <param name='static_image' value='https://public.tableau.com/static/images/OE/OECDDebttoGDPRatios2019/Sheet12/1.png' />
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-    <param name='language' value='en-US' />
-    <param name='filter' value='publish=yes' />
-  </object>
-</div>
-<script type='text/javascript'>
-  var divElement = document.getElementById('viz1788921199453');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  vizElement.style.width='100%';
-  vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
+### Part 3: Redesigned Visualization (2019 Snapshot)
+[![OECD 2019 Debt Redesign](https://public.tableau.com/static/images/OE/OECDDebttoGDPRatios2019/Sheet12/1.png)](https://public.tableau.com/app/profile/jennifer.liu4619/viz/OECDDebttoGDPRatios2019/Sheet12)
+*Click the chart above to interact with the full visualization on Tableau Public.*
+
+### Reflection Statement
+For my final redesign, I wanted to shift the focus from a broad temporal matrix to a clear, high-impact cross-sectional snapshot by identifying which OECD countries faced the most severe fiscal risk in 2019, right before the pandemic. While the complete dataset spans 25 years across dozens of nations, trying to show every country's long-term trend in a single bar chart created massive visual clutter. To solve this, I filtered the timeframe down specifically to 2019 to evaluate the most recent pre-pandemic baseline, while keeping all available reporting countries sorted in descending order by their debt-to-GDP percentages. This structure allowed me to clearly highlight the threshold where national debt crosses the critical 100 percent mark.
+
+Compared to the Part 2 heatmap, I found this sorted horizontal bar chart to be significantly more effective for making direct rank and value comparisons. While the heatmap excelled at showing macro-level color trends across time, it made comparing exact debt ratios between mid-tier countries nearly impossible without constantly checking color keys and cross-referencing axes. In my redesign, I applied a two-color diverging palette with a hard center threshold at 100 percent. By using vibrant orange-red for high-risk nations like Greece, Italy, and Portugal, alongside a calm muted blue for stable economies under 100 percent, the visual narrative becomes instantly readable. Readers can immediately grasp both the extreme outliers and the overall distribution without getting lost in unnecessary multidimensional complexity.
 
 ### Reflection Statement
 
