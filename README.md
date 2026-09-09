@@ -26,7 +26,6 @@ After graduating, I'm targeting roles in Data Analytics, Business Intelligence, 
 # Examples
 You can keep this section for stuff from in-class demos or your other work, or remove it. 
 
-## Assignment: [Visualizing overnment Debt](visualizing-government-debt)
 ## Assignment: [Visualizing Government Debt](https://public.tableau.com/app/profile/jennifer.liu4619/viz/OECDDebttoGDPRatios1995-2019_17889178234160/Sheet1)
 
 <div class='tableauPlaceholder' id='viz1788921284307' style='position: relative'>
