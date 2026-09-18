@@ -124,4 +124,4 @@ This chart describes coded animal characters in this dataset. It does not show t
 - Peck, Evan. [Data is Personal: What We Learned from 42 Interviews in Rural America](https://medium.com/multiple-views-visualization-research-explained/data-is-personal-what-we-learned-from-42-interviews-in-rural-america-93539f25836d). 2019.
 - Course video: *Correlation, Causation & Misleading Data Claims*.
 
-**AI use disclosure:** I used OpenAI Codex to read the assignment instructions and the reading material that I provided, draft and revise the critique, organize my testing notes, and prepare the portfolio page. I created the Tableau visualization and supplied the two participant feedback summaries. I reviewed and approved the final content.
+**AI use disclosure:** OpenAI Codex was used solely for grammar checking, typo correction, and language polishing. .
