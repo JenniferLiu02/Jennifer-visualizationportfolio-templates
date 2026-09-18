@@ -1,14 +1,17 @@
 | [home page](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-# TSWD-portfolio-templates
-These portfolio templates are for setting up your Telling Stories with Data site.  Edit these pages and add new ones as needed.   
-It's always helpful to keep track of your web URL.  Consider putting that somewhere on your page for easy reference: 
+# Jennifer Liu’s Data Visualization Portfolio
 
-- Web page URL: https://cmustudent.github.io/tswd-portfolio-templates/
-- This repository: https://github.com/cmustudent/tswd-portfolio-templates/
+This is my public portfolio for Telling Stories with Data at Carnegie Mellon University.
+
+Portfolio links:
+
+- Web page URL: https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/
+- This repository: https://github.com/JenniferLiu02/Jennifer-visualizationportfolio-templates
 
 # Portfolio
-This is my public portfolio for Telling Stories with Data at CMU!  Here's where all my cool work will go.  You should probably hire me. 
+
+This portfolio collects my course work in data visualization, including exploratory analysis, redesigns, and critiques. 
 
 # About me
 Hi, I'm Jennifer Liu, a graduate student at Carnegie Mellon University's Heinz College, pursuing a Master of Information Systems Management with a concentration in Business Intelligence and Data Analytics (MISM-BIDA), expected to graduate in December 2026.
