@@ -60,6 +60,10 @@ Viégas and Wattenberg say that a redesign needs a clear goal, the same data, an
 
 The color guidance shaped my plan. I use only three data colors. Blue and orange distinguish the two larger groups. Gray makes the small other group recede. Labels provide a second cue, so readers do not need color alone. The course video on correlation and causation shaped the noncausal note.
 
+Few’s profile gave me a clear checklist for judging the original chart. It helped me explain why the icon grid reduces completeness and perceptibility. Good Charts gave me broader design guidance. It helped me think about the audience, the main message, color, and chart type before I made the redesign.
+
+Few is stronger for a structured evaluation. Good Charts is stronger for making design choices. Few does not ask enough about the data collection process, the meaning of categories such as gender, or the social context of the original chart. I used Few to identify problems and Good Charts to guide the redesign.
+
 ## Step 3: Sketch a solution
 
 **Goal:** Help a reader see the overall result in less than ten seconds, then compare the most common animal groups.
@@ -132,6 +136,7 @@ This chart describes coded animal characters in this dataset. It does not show t
 - Few, Stephen. [Data Visualization Effectiveness Profile](http://www.perceptualedge.com/articles/visual_business_intelligence/data_visualization_effectiveness_profile.pdf). 2017.
 - Viégas, Fernanda, and Martin Wattenberg. [Design and Redesign in Data Visualization](https://medium.com/@hint_fm/design-and-redesign-4ab77206cf9). 2015.
 - Peck, Evan. [Data is Personal: What We Learned from 42 Interviews in Rural America](https://medium.com/multiple-views-visualization-research-explained/data-is-personal-what-we-learned-from-42-interviews-in-rural-america-93539f25836d). 2019.
+- Berinato, Scott. *Good Charts: The HBR Guide to Making Smarter, More Persuasive Data Visualizations*. Harvard Business Review Press, 2016.
 - Course video: *Correlation, Causation & Misleading Data Claims*.
 
-**AI use disclosure:** OpenAI Codex was used solely for grammar checking, typo correction, and language polishing. .
+**AI use disclosure:** OpenAI Codex was used solely for grammar checking, typo correction, citation and language polishing .
