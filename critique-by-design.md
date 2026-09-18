@@ -8,6 +8,10 @@
 
 I chose the chart shown on the Makeover Monday page. It studies pronoun words for animal characters in children’s books. The top bar shows he/him 66.1%, she/her 31.3%, and other 2.6%. Below the bar, a large grid repeats animal faces.
 
+![Original Bears Will Be Boys visualization](bears-will-be-boys-original.png)
+
+The image above shows the original chart. Use the [original Makeover Monday page](https://makeovermonday.vercel.app/dataset/bears-will-be-boys) to explore its search box and filters.
+
 I chose this chart because it has a clear topic and public data. The main result matters, but the crowded icon grid makes the result less immediate. I want a reader to see the overall result first and then compare animal groups.
 
 ## Step 2: Critique the original visualization
@@ -96,6 +100,12 @@ Both participants understood the main result without help. This supports removin
 The feedback also improved the layout. The title now states a takeaway. The subtitle sits close to the visual. The 50% reference line makes it clear that he/him passes the halfway point. The final design uses labels and color together.
 
 ## Step 5: Build the final redesign
+
+### Final redesign overview
+
+![Final overall comparison](bears-will-be-boys-final-overview.png)
+
+This static overview shows the total comparison first. The interactive dashboard below shows the same overall result and the comparison across animal groups.
 
 ### Final interactive visualization
 
