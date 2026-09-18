@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="920" viewBox="0 0 1400 920" role="img" aria-labelledby="title description">
+  <title id="title">Wireframe for Bears Will Be Boys redesign</title>
+  <desc id="description">A wireframe with an overall pronoun bar at the top and stacked bars by animal group below.</desc>
+  <rect width="1400" height="920" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#20262b">
+    <text x="90" y="65" font-size="21" font-weight="700" fill="#66737a">WIREFRAME</text>
+    <text x="90" y="125" font-size="42" font-weight="700">Why do so many animal characters become “he”?</text>
+    <text x="90" y="165" font-size="22" fill="#58666d">He/him appears in 66.1% of coded animal characters in popular children’s books</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#58666d"><text x="90" y="215">Overall share of coded pronouns</text><text x="90" y="349">Compare the most common animal groups</text></g>
+  <rect x="90" y="234" width="344" height="78" fill="#ff8c00"/><rect x="434" y="234" width="29" height="78" fill="#b8afa9"/><rect x="463" y="234" width="727" height="78" fill="#4682b4"/>
+  <line x1="640" y1="220" x2="640" y2="325" stroke="#66737a" stroke-width="2" stroke-dasharray="7 6"/><text x="619" y="214" font-family="Arial" font-size="16" fill="#58666d">50%</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20"><text x="220" y="281" fill="#20262b">she/her 31.3%</text><text x="703" y="281" fill="#ffffff">he/him 66.1%</text><text x="1080" y="223" fill="#58666d">Other 2.6%</text></g><line x1="1160" y1="228" x2="1160" y2="201" stroke="#66737a" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#58666d"><text x="90" y="385">bear</text><text x="90" y="435">bird</text><text x="90" y="485">cat</text><text x="90" y="535">dinosaur</text><text x="90" y="585">dog</text><text x="90" y="635">elephant</text><text x="90" y="685">fox</text><text x="90" y="735">mouse</text><text x="90" y="785">pig</text><text x="90" y="835">rabbit</text></g>
+  <g>
+    <rect x="220" y="362" width="300" height="35" fill="#ff8c00"/><rect x="520" y="362" width="670" height="35" fill="#4682b4"/>
+    <rect x="220" y="412" width="380" height="35" fill="#ff8c00"/><rect x="600" y="412" width="46" height="35" fill="#b8afa9"/><rect x="646" y="412" width="544" height="35" fill="#4682b4"/>
+    <rect x="220" y="462" width="332" height="35" fill="#ff8c00"/><rect x="552" y="462" width="46" height="35" fill="#b8afa9"/><rect x="598" y="462" width="592" height="35" fill="#4682b4"/>
+    <rect x="220" y="512" width="260" height="35" fill="#ff8c00"/><rect x="480" y="512" width="710" height="35" fill="#4682b4"/>
+    <rect x="220" y="562" width="170" height="35" fill="#ff8c00"/><rect x="390" y="562" width="800" height="35" fill="#4682b4"/>
+    <rect x="220" y="612" width="120" height="35" fill="#ff8c00"/><rect x="340" y="612" width="50" height="35" fill="#b8afa9"/><rect x="390" y="612" width="800" height="35" fill="#4682b4"/>
+    <rect x="220" y="662" width="70" height="35" fill="#ff8c00"/><rect x="290" y="662" width="900" height="35" fill="#4682b4"/>
+    <rect x="220" y="712" width="310" height="35" fill="#ff8c00"/><rect x="530" y="712" width="660" height="35" fill="#4682b4"/>
+    <rect x="220" y="762" width="320" height="35" fill="#ff8c00"/><rect x="540" y="762" width="650" height="35" fill="#4682b4"/>
+    <rect x="220" y="812" width="258" height="35" fill="#ff8c00"/><rect x="478" y="812" width="16" height="35" fill="#b8afa9"/><rect x="494" y="812" width="696" height="35" fill="#4682b4"/>
+  </g>
+  <line x1="640" y1="350" x2="640" y2="854" stroke="#66737a" stroke-width="2" stroke-dasharray="7 6"/><text x="648" y="874" font-family="Arial" font-size="16" fill="#58666d">50% reference line</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#58666d"><text x="220" y="880">0%</text><text x="1170" y="880">100%</text><text x="90" y="905">Source: The Pudding via Makeover Monday. This chart describes this dataset and does not show cause and effect.</text></g>
+</svg>
