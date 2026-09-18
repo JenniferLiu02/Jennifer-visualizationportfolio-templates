@@ -84,6 +84,12 @@ The color guidance shaped my plan. I use only three data colors. Blue and orange
 
 ## Step 4: Test the solution
 
+### First redesign prototype used for testing
+
+![First redesign prototype](bears-will-be-boys-final-overview.png)
+
+Before I built the dashboard, I showed this first redesign to both participants. It focuses on the overall result. Their feedback shaped the final Tableau dashboard below.
+
 **Test script:** “Please look at this chart for 30 seconds. I will not explain it first. I am testing the chart, not you.”
 
 I asked each participant what the chart showed, what the main result was, what the colors meant, what felt unclear, and whether the chart showed cause or only described the dataset. I do not include names or contact information.
@@ -101,13 +107,7 @@ The feedback also improved the layout. The title now states a takeaway. The subt
 
 ## Step 5: Build the final redesign
 
-### Final redesign overview
-
-![Final overall comparison](bears-will-be-boys-final-overview.png)
-
-This static overview shows the total comparison first. The interactive dashboard below shows the same overall result and the comparison across animal groups.
-
-### Final interactive visualization
+### Final Tableau dashboard
 
 [Open the final Tableau dashboard](https://public.tableau.com/app/profile/jennifer.liu4619/viz/CritiquebyDesignBearsWillBeBoys/Dashboard1?publish=yes)
 
