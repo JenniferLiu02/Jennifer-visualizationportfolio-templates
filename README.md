@@ -47,8 +47,9 @@ For my final redesign, I wanted to shift the focus from a broad temporal matrix 
 Compared to the Part 2 heatmap, I found this sorted horizontal bar chart to be significantly more effective for making direct rank and value comparisons. While the heatmap excelled at showing macro-level color trends across time, it made comparing exact debt ratios between mid-tier countries nearly impossible without constantly checking color keys and cross-referencing axes. In my redesign, I applied a two-color diverging palette with a hard center threshold at 100 percent. By using vibrant orange-red for high-risk nations like Greece, Italy, and Portugal, alongside a calm muted blue for stable economies under 100 percent, the visual narrative becomes instantly readable. Readers can immediately grasp both the extreme outliers and the overall distribution without getting lost in unnecessary multidimensional complexity.
 
 
-## Assignment 3&4: [Critique by Design](critique-by-design)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
+## Assignment 3 & 4: [Critique by Design](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/critique-by-design)
+
+This project critiques the original Makeover Monday visualization, summarizes feedback from two user tests, and presents an interactive Tableau redesign.
 
 ## Final project
 Here it might be helpful to include a high-level description of your final project. 
@@ -122,4 +123,3 @@ _List any references you used here._
 
 ## AI acknowledgements
 _If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
-
