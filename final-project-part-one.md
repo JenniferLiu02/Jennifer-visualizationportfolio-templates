@@ -262,13 +262,44 @@ I plan to use the data for several different questions.
 
 ## Data sources
 
-| Name | Description |
-| --- | --- |
-| USDA Food at Home Monthly Area Prices | Main source for food price comparisons across metropolitan areas |
-| USDA food plan data | Possible source for defining a standardized grocery basket |
+### USDA Food at Home Monthly Area Prices
 
-I will add direct public dataset links after I finalize the exact files that I use for the analysis.
+My primary dataset is the USDA Economic Research Service Food at Home Monthly Area Prices dataset.
 
+The dataset contains monthly food price data from 2012 through 2018 for 90 food categories across 15 geographic areas in the United States. The geographic coverage includes 10 metropolitan areas, four Census regions, and the national level.
+
+The dataset includes mean unit values, price indexes, purchase quantities, purchase dollars, and store counts. I plan to use the mean unit values and price indexes to compare the cost of food categories across metropolitan areas and over time.
+
+I confirmed that I can access and download the full dataset from the USDA ERS website.
+
+Dataset page:
+
+https://www.ers.usda.gov/data-products/food-at-home-monthly-area-prices
+
+Available files include:
+
+- Food at Home Monthly Area Prices, 2012 to 2018, XLSX
+- Food at Home Monthly Area Prices, 2012 to 2018, ZIP
+
+### USDA FoodAPS National Household Food Acquisition and Purchase Survey
+
+I may also use the USDA FoodAPS dataset as a supporting source when I define the standardized grocery basket.
+
+FoodAPS contains nationally representative data about food purchases and acquisitions from 4,826 U.S. households. The public use files include food at home events, food at home items, food away from home events, household information, and individual information.
+
+I plan to use FoodAPS only as a reference for common food purchase patterns. The main geographic price comparison will still use the Food at Home Monthly Area Prices dataset.
+
+I confirmed that the public use FoodAPS files are available for download in CSV format.
+
+Dataset page:
+
+https://ers.usda.gov/data-products/foodaps-national-household-food-acquisition-and-purchase-survey
+
+Available files include:
+
+- CSV public use data files
+- Documentation and codebooks
+- 
 ## Data limitations
 
 The project will clearly explain the limitations of the data.
