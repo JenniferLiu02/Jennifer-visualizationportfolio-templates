@@ -52,10 +52,15 @@ Compared to the Part 2 heatmap, I found this sorted horizontal bar chart to be s
 This project critiques the original Makeover Monday visualization, summarizes feedback from two user tests, and presents an interactive Tableau redesign.
 
 ## Final project
-Here it might be helpful to include a high-level description of your final project. 
-[Part I](final-project-part-one)
-[Part II](final-project-part-two)
-Part III(final-project-part-three)
+
+### Same Basket, Different City
+**How far does the same grocery budget go across American cities?**
+
+This project explores how the cost of a standardized grocery basket varies across major U.S. metropolitan areas. Through grocery price comparisons, food-group breakdowns, and receipt-style visuals, I aim to show students and young adults how location affects the purchasing power of the same budget.
+
+- [Part I: Proposal, outline, sketches, and data](final-project-part-one)
+- [Part II: Storyboards and user research](final-project-part-two)
+- [Part III: Final story and reflection](final-project-part-three)
 
 ---
 ## Other stuff you can do (you can remove this section - it's just for your reference.)
