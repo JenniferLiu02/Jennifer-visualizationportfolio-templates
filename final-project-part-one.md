@@ -299,7 +299,7 @@ Available files include:
 
 - CSV public use data files
 - Documentation and codebooks
-- 
+  
 ## Data limitations
 
 The project will clearly explain the limitations of the data.
