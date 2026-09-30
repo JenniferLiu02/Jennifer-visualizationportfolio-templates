@@ -58,9 +58,9 @@ This project critiques the original Makeover Monday visualization, summarizes fe
 
 This project explores how the cost of a standardized grocery basket varies across major U.S. metropolitan areas. Through grocery price comparisons, food-group breakdowns, and receipt-style visuals, I aim to show students and young adults how location affects the purchasing power of the same budget.
 
-- [Part I: Proposal, outline, sketches, and data](final-project-part-one)
-- [Part II: Storyboards and user research](final-project-part-two)
-- [Part III: Final story and reflection](final-project-part-three)
+- [Part I: Proposal, outline, sketches, and data](final-project-part-one.md)
+- [Part II: Storyboards and user research](final-project-part-two.md)
+- [Part III: Final story and reflection](final-project-part-three.md)
 
 ---
 ## Other stuff you can do (you can remove this section - it's just for your reference.)
