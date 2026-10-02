@@ -14,7 +14,7 @@ I started this project with a simple question: how much would the same grocery l
 
 **Reading path:** Start with the total bill → identify which groups add dollars → inspect the receipt → compare item-level percentages → translate the total into $25 of model basket coverage.
 
-[Read the story](#wireframes--storyboards) · [Data and methods](#data-methods-and-reproducibility) · [Interview protocol](#user-research-protocol) · [Feedback and revisions](#interview-findings) · [Assignment check](#assignment-requirements-check)
+[Read the story](#wireframes--storyboards) · [Data and methods](#data-methods-and-reproducibility) · [Interview protocol](#user-research-protocol) · [Feedback and revisions](#interview-findings)
 
 <details>
 <summary>How I developed Part I and responded to feedback</summary>
@@ -208,7 +208,7 @@ I use P1–P3 instead of names. The findings below come from written responses, 
 
 ## Interview findings
 
-I collected feedback from three CMU graduate students, whom I refer to as P1, P2 and P3. Most of them cook for themselves, so comparing grocery prices is relevant to their everyday lives. Their responses focused on different parts of the project: P1 on the explanations, P2 on the portfolio structure and P3 on the charts and reading order.
+I collected feedback from three CMU graduate students, whom I refer to as P1, P2 and P3. Most of them cook for themselves, so comparing grocery prices is relevant to their everyday lives. Their responses focused on different parts of the project: P1 on the explanations, P2 on understanding the $25 comparison and P3 on the chart details and reading order.
 
 ### P1: making the comparisons easier to follow
 
@@ -225,23 +225,29 @@ Specific feedback:
 
 My friend organized the response around the main message, what the charts show and what could be improved. I treat the suggested misunderstandings as issues to test, rather than as mistakes I observed them making.
 
-### P2: feedback on the portfolio framework
+### P2: understanding what $25 covers
 
-I received another written comment about the portfolio framework. The response describes the document as a useful way to organize project planning, audience analysis, preliminary designs and the development process, rather than presenting only finished charts.
+P2 first commented on the portfolio structure and suggested adding more concrete examples. I then asked them to look at the five charts and answer three questions about the story.
 
-> “Some sections could add more concrete examples to lower the learning curve for beginners.”
+**1. What is the main story?**
 
-P2 liked being able to follow the project’s development, but wanted examples. Their response does not tell me how they read the grocery charts, so I cannot yet use it to assess whether the charts make sense.
+P2 understood that I was comparing the same grocery basket across cities, using Pittsburgh as the baseline. They noticed that the charts move from total prices to the food groups and items behind the differences. They felt the $25 comparison made those differences easier to connect to everyday spending.
 
-P2’s comments were about the overall structure, so I would like to follow up on the grocery charts with these questions:
+**2. What do 82.5% and 106.7% mean?**
 
-1. After looking at the five charts, what do you think my main point is?
-2. What does the basket represent? Would you read it as a week of groceries?
-3. Does the largest percentage difference necessarily add the most dollars to the bill?
-4. How would you explain the 82.5% and 106.7% figures in the $25 chart?
-5. Where did you have to stop and reread? If I changed one thing, what would you choose?
+P2 read 82.5% as the share of the New York basket that $25 would cover. They understood that $25 would cover the full Pittsburgh basket with some money left over, but had to think about the percentages before the meaning became clear:
 
-I have not yet received answers to these follow-up questions.
+> “the percentages were not immediately intuitive to me, especially because a value above 100% is a little unusual when thinking about a grocery basket.”
+
+**3. Which part was hardest to understand, and what would you change?**
+
+The $25 chart was the hardest part for P2:
+
+> “I had to stop and figure out what 82.5% and 106.7% were percentages of.”
+
+Their first choice was to label 100% as **one full grocery basket**. They also wanted the axis to use percentages instead of decimals.
+
+This helped me see that the issue was not the calculation itself. P2 reached the intended interpretation, but the chart made them work to identify the reference point. I need to make that reference visible in the chart.
 
 ### P3: feedback on the story and five charts
 
@@ -277,33 +283,28 @@ The table summarizes P3’s answers, including the parts they found clear and th
 
 ### What I learned from the feedback
 
-P1 and P3 both understood the main story, but wanted clearer transitions between dollar amounts, percentage differences and budget coverage. Both also asked for a clearer 100% baseline in the $25 chart. This makes the budget chart my first priority for visual revision.
+All three readers asked for a clearer 100% reference in the budget chart. P2’s follow-up made the problem especially clear: they understood the percentages eventually, but first had to work out what counted as 100%. This makes a labeled “one full grocery basket” line my first priority.
 
-P3 added two specific concerns: the tiny negative segments are hard to see, and the shortened receipt headings slow down price comparisons. P3 also suggested moving the geography and time-data sections after the main story. P2 focused on the portfolio structure and asked for more concrete examples, which supports keeping the potatoes-versus-chicken comparison.
+P1 and P3 also wanted clearer transitions between extra dollars and percentage differences. P2 understood the overall sequence and felt the $25 chart made the comparison more practical. These responses do not directly conflict: readers could follow the main story while still finding an individual chart hard to read.
 
-I did not find a direct disagreement in these responses. Their emphasis differs: P1 focuses on explanation, P2 on the portfolio framework, and P3 on chart details and story order. Because P2’s comments are broader, I still need a follow-up on the grocery charts before I can compare all three readers’ understanding of the same tasks.
+P3 pointed out details the others did not mention, including the shortened city names in the receipt and the tiny negative segments in the extra-cost chart. P2’s earlier request for concrete examples supports keeping the potatoes-and-chicken comparison.
+
+The main lesson for me is that the story makes sense, but some of the charts still need the surrounding text to explain them. In the next version, I want the units, reference points and labels to do more of that work.
 
 ## Identified changes for Part III
 
-I have already clarified the transitions, added a worked example and moved detailed methods out of the main reading path. Next, I will focus on the chart changes below and follow up with P2 about the grocery story.
+I have already added clearer transitions, the potatoes-and-chicken example and short source notes beside each chart. I also moved the detailed methods into an expandable section. Based on the feedback, these are my next changes:
 
-| Evidence | Change | Current status / next check |
-|---|---|---|
-| P1 and P3: transitions between measures need explanation | Add a reading path and brief bridges explaining why the next measure is useful | Added to the draft; check in the follow-up |
-| P1 and P3: dollar contribution may be confused with percent difference | Add the Seattle potatoes-versus-chicken worked example | Implemented; ask readers to explain why the larger percentage adds fewer dollars |
-| P1 and P3: coverage above/below 100% is unclear | Define 100%, above 100% and below 100%; change Tableau axis to percentages and add a labeled 100% line | Explanation added; chart formatting planned for Part III |
-| P1: key limitation should sit beside charts | Repeat one concise source limitation by each figure; move detailed methods into an expandable section | Implemented; check whether readers can explain the source limits |
-| P3: receipt headings are shortened | Widen the receipt columns so the full city names are visible | Planned for Part III |
-| P2: more concrete examples | Keep the worked dollars-versus-percent example and add specific before/after design explanations where useful | Worked example already present; evaluate whether readers need another example |
-| P3: tiny negative category segments | Add explicit negative-value labels or annotations without hiding or inflating the values | Planned for Part III; check that readers can see the negative values |
-| P3: geography/time discussion interrupts the story | Test moving these two discussions after the $25 comparison while keeping source limitations beside every chart | Proposed sequence for reader testing; current Part I-based sequence retained |
-| Research follow-up | Ask P2 the chart questions above and record the response | Pending |
+| Feedback | What I will change |
+|---|---|
+| P1, P2 and P3 asked for a clearer budget reference; P2 had to work out what the percentages were of | Format the $25 axis as percentages and add a labeled **100% = one full grocery basket** line. |
+| P1 and P3 wanted the difference between dollars and percentages to be clearer | Keep the worked example and give the two charts short subtitles stating which measure they use. |
+| P3 found the receipt headings hard to read | Widen the columns so Pittsburgh and San Francisco appear in full. |
+| P3 found the small negative segments difficult to see | Add value labels or short annotations without changing their scale. |
+| P3 felt the geography and time-data sections interrupted the story | Move those discussions after the $25 comparison, while keeping the main source limitation beside each chart. |
+| P1 wanted the main limitation closer to the charts | Keep the brief Numbeo caveat with each figure and the longer explanation in the methods section. |
 
-## Assignment requirements check
-
-For Part II, I am presenting this GitHub storyboard with five draft visualizations, source data, an interview protocol, feedback and a plan for Part III. The story follows my original outline, and each chart includes a caption and a link to the interactive version.
-
-The main research follow-up is P2: their current response concerns the portfolio structure, and I want to learn how they read the charts themselves. The Tableau formatting changes are part of my Part III plan, not a claim that Part II requires finished charts. I will submit this page as my Part II draft.
+After making these changes, I want to check whether readers can explain the budget chart without first reading the paragraph underneath it.
 
 ## References
 
