@@ -10,7 +10,7 @@ I started this project with a simple question: how much would the same grocery l
 
 [Open the five-sheet Tableau workbook](https://public.tableau.com/views/Finalproject_17908994232220/Sheet1?:tabs=yes&:showVizHome=no) · [Download/view the 32 source entries](part-two-grocery-prices.csv)
 
-**Main message:** In this eight-item comparison, the estimated basket totals differ across the four cities. The gaps come from particular foods and food groups; prices are not uniformly higher for every item.
+**What I found:** This list costs $6.85 more in New York than in Pittsburgh. But a higher bill does not mean every food costs more: Seattle’s milk and San Francisco’s rice are slightly cheaper in these estimates.
 
 **Reading path:** Start with the total bill → identify which groups add dollars → inspect the receipt → compare item-level percentages → translate the total into $25 of model basket coverage.
 
@@ -21,14 +21,14 @@ I started this project with a simple question: how much would the same grocery l
 
 ### Development from Part I and instructor feedback
 
-I have kept my original story sequence: introduce the basket, compare totals, open the receipt, examine food differences, return to a fixed budget and end with a modest budgeting takeaway. I developed the horizontal bar, stacked bar and dot-plot sketches from [Part I](final-project-part-one.md), with two refinements:
+I kept the question from Part I: what happens to the bill when the shopping list stays the same? The story starts with the total, looks at the foods behind the difference and ends with what $25 covers. I developed the horizontal bar, stacked bar and dot-plot sketches from [Part I](final-project-part-one.md), with two refinements:
 
 - The stacked chart now shows **category contributions to the difference from Pittsburgh**, rather than total category spending. This more directly answers “What creates the difference?”
 - The dot plot now shows **individual foods as percentage differences from Pittsburgh**, making the baseline explicit while retaining the original city-comparison concept.
 
 In Part I, I proposed using USDA Food-at-Home Monthly Area Prices, which covers 2012–2018 and does not include Pittsburgh, San Francisco or Seattle. For this draft, I switched to Numbeo city entries so I could explore these four cities. This changes the geography from USDA metropolitan areas to Numbeo city definitions; the two datasets are not combined.
 
-Professor Christopher Goranson asked me to clarify the geographic scope and city-selection criteria and encouraged me to keep the basket definition simple. All four places here are **U.S. cities**. I chose Pittsburgh as a familiar starting point for my CMU audience and New York, San Francisco and Seattle as illustrative relocation scenarios with available prices for the same items. This is a purposive comparison, **not a verified list of CMU graduates’ top destinations** and not a representative sample of U.S. cities.
+Professor Christopher Goranson asked me to clarify the geographic scope and city-selection criteria and encouraged me to keep the basket definition simple. All four places here are **U.S. cities**. I chose Pittsburgh as a familiar starting point for my CMU audience and New York, San Francisco and Seattle as illustrative relocation scenarios with available prices for the same items. I chose these four cities for this story. They are **not a verified list of CMU graduates’ top destinations**, and they do not represent all U.S. cities.
 
 When I asked about changing data sources, Professor Goranson emphasized making the limitations prominent, avoiding strong conclusions and considering what better data could reveal. I have therefore framed the story around patterns in these estimates, without treating them as predictions of student spending or recommendations about where to move. The basket uses major food groups; detailed calculations appear after the story.
 
@@ -63,7 +63,7 @@ I defined this eight-item basket as a simple comparison tool. It is not a weekly
 
 The list totals **$23.44 in Pittsburgh, $27.92 in San Francisco, $29.43 in Seattle and $30.29 in New York**. The bars are sorted to make the range easy to compare. This ordering applies to these eight quantities and estimates; a different list, retailer or sample could produce a different result.
 
-**Why the next chart uses dollars:** The total tells us how large the bill is. Subtracting Pittsburgh’s price for each group shows where the extra dollars come from.
+New York’s bill is $6.85 higher. How much of that comes from eggs and chicken, and how much comes from the rest of the list?
 
 ### 3. Open the receipt: where does the extra cost come from?
 
@@ -73,13 +73,13 @@ The list totals **$23.44 in Pittsburgh, $27.92 in San Francisco, $29.43 in Seatt
 
 Relative to Pittsburgh, the **net** difference is **+$6.85 for New York, +$5.99 for Seattle and +$4.48 for San Francisco**. For New York and Seattle, eggs and chicken together contribute $3.31 and $3.00 respectively. In San Francisco, grains contribute $1.35, close to the $1.40 contribution from protein.
 
-These are arithmetic contributions within the selected list, not evidence about the economic causes of city food prices. Segments represent food-group sums: for example, Seattle’s dairy contribution is −$0.04 because the milk estimate is lower than Pittsburgh’s.
+The chart shows which foods add to the gap; it cannot explain why stores charge different prices. A negative segment reduces the gap. Seattle’s milk, for example, is $0.04 cheaper than Pittsburgh’s.
 
 [![Four-city receipt table with item quantities, individual estimates and basket totals](part-two-images/sheet-4.png)](https://public.tableau.com/views/Finalproject_17908994232220/Sheet4?:showVizHome=no)
 
 *Figure 3. A reconstructed receipt comparison. All amounts are USD per stated quantity; these are not actual store receipts. Source: Numbeo, consulted October 1, 2026. These are illustrative Numbeo estimates, not representative city-wide grocery prices.*
 
-The receipt table lets readers inspect the entries behind the totals. **Why switch to percentages next?** A dollar gap measures the contribution to the bill; a percentage gap measures how different an item is relative to its Pittsburgh price. They answer different questions.
+The receipt shows the prices behind each total. Next I compare each food with its Pittsburgh price. That helps distinguish a small dollar change on a cheap item from a larger dollar change on an expensive one.
 
 ### 4. What actually costs more?
 
@@ -110,11 +110,11 @@ In Part I, I planned to include a time-series chart only if the data supported i
 
 A stronger comparison would collect matching products and quantities at multiple documented stores in each city during the same periods, then repeat collection over time. It would also document store selection and variability. Such evidence could help distinguish persistent differences from changes in products, sample composition or collection dates.
 
-This is a substantive limit: recent access to a rolling table does not turn it into a synchronized survey.
+Opening all four pages on the same day does not mean their prices were collected on the same day.
 
 ### 7. Same money, different basket
 
-**Why return to the total?** After examining the sources of price differences, hold the available money fixed. Dividing $25 by each total turns the price comparison into a share of one model basket.
+Now return to the shopping list. If I have $25 in each city, how much of this same list could that cover?
 
 [![Horizontal bars showing the fraction of the selected basket covered by an illustrative 25-dollar budget](part-two-images/sheet-5.png)](https://public.tableau.com/views/Finalproject_17908994232220/Sheet5?:showVizHome=no)
 
@@ -128,13 +128,13 @@ This is a substantive limit: recent access to a rolling table does not turn it i
 
 The $25 amount is a round illustration budget near the sample totals, not a recommended grocery allowance. The model divides $25 by each city’s basket cost and scales all eight quantities proportionally.
 
-It allows fractional quantities. A result of 82.5% does not mean someone can buy 82.5% of each retail package, nor does it measure nutritional adequacy. It makes the price comparison tangible while leaving real shopping choices open.
+The calculation scales every quantity together, including fractions. In practice, I cannot buy 82.5% of an egg carton: I would choose different items or packages. The chart compares the budget with the price of the list; it is not a shopping plan.
 
 ### 8. What this means for a budget
 
 This exercise suggests a useful next step: write down the foods and quantities you actually buy, then check comparable products at the stores you would use in a prospective city.
 
-The selected estimates help frame that investigation. They do not predict a student’s spending, establish overall affordability or identify the best place to move. Income, housing, transportation, dietary needs and access to stores would all matter to that broader decision.
+Before using these numbers for my own budget, I would check the foods I actually buy at stores near where I might live. This small list cannot tell me which city I can afford; rent, income, transportation and my diet would matter too.
 
 ## Data, methods and reproducibility
 
@@ -174,7 +174,7 @@ These are draft visualizations for Part II. In Part III, I plan to use the feedb
 
 My intended audience is college students, graduate students and recent graduates who buy their own groceries and may move to another U.S. city. Readers should not need training in economics or data visualization.
 
-I plan to recruit at least three adults from this audience through classmates or student contacts, seeking variation in grocery-shopping responsibility, familiarity with Pittsburgh and experience planning a move. Participants need not have Tableau experience. This small convenience sample will help identify comprehension problems; it will not represent all CMU students.
+I focused on CMU graduate students because they are part of the audience I want to reach and grocery spending is relevant to their daily lives. The three people who gave feedback are CMU graduate students, and most cook for themselves. This is a small group of friends, so their responses help me spot confusing parts of the story rather than speak for all students.
 
 Recruitment message: “I am testing a short grocery-price story for a class project. Would you be willing to spend about 15–20 minutes reading it and telling me what makes sense or feels confusing? Participation is optional, and I will report feedback anonymously.”
 
@@ -182,7 +182,7 @@ Recruitment message: “I am testing a short grocery-price story for a class pro
 
 I want to learn whether readers understand the city selection, fixed quantities, dollar-versus-percentage comparisons, $25 model and source limitations. I also want to test whether the progression from totals to food differences to purchasing power feels coherent.
 
-### Session procedure and script
+### Script for the chart review and follow-up
 
 1. I will explain the activity and ask permission to take anonymous notes. I will only record audio with separate consent.
 2. Opening script: “I am testing the story, not your knowledge. Please read it at your own pace and think aloud when something catches your attention or feels confusing. You can skip any question or stop at any time.”
@@ -202,11 +202,9 @@ I want to learn whether readers understand the city selection, fixed quantities,
 | Evidence and limits | What does October 1, 2026 mean here? What would you need before using this to plan actual spending? | Distinguishing access date from observation date and recognizing source limits |
 | Narrative | Where did you hesitate, lose the thread or want more explanation? | Transitions, reading order and missing context |
 
-### Notes and synthesis procedure
+### How I recorded the feedback
 
-I will use participant codes P1–P3 and broad audience descriptions, omitting names and identifying details. I will separate what I observe from my interpretation and use quotation marks only for words I have actually captured.
-
-After the sessions, I will compare recurring feedback with conflicting responses and connect each design decision to specific evidence. I will distinguish participant feedback from issues identified during my own design review.
+I use P1–P3 instead of names. The findings below come from written responses, not a record of me watching each person use the charts. I quote the wording where available and summarize the rest. I compare the responses below and link the suggestions to the changes I plan to make.
 
 ## Interview findings
 
@@ -216,7 +214,7 @@ I collected feedback from three CMU graduate students, whom I refer to as P1, P2
 
 P1 understood the story’s main point but felt that I could do more to explain why each chart uses a different measure.
 
-My friend’s summary matched the main message I hoped to communicate: the same basket has different estimated totals, driven by particular categories and items rather than uniformly higher prices. They also recognized all four comparison types: totals, category dollar differences, item percentages and budget coverage.
+They understood that the price gap comes from particular foods, not every item becoming more expensive. Their concern was how quickly the story moves between totals, extra dollars, percentages and budget coverage.
 
 Specific feedback:
 
@@ -233,7 +231,7 @@ I received another written comment about the portfolio framework. The response d
 
 > “Some sections could add more concrete examples to lower the learning curve for beginners.”
 
-I take this as feedback on the clarity of the portfolio structure. It supports including concrete examples of how a design decision follows from the data or feedback. However, this response discusses the template generally; it does not document the reader’s interpretation of my grocery charts or answers to the interview tasks.
+P2 liked being able to follow the project’s development, but wanted examples. Their response does not tell me how they read the grocery charts, so I cannot yet use it to assess whether the charts make sense.
 
 P2’s comments were about the overall structure, so I would like to follow up on the grocery charts with these questions:
 
@@ -249,7 +247,7 @@ I have not yet received answers to these follow-up questions.
 
 P3 reviewed the story and all five charts, then answered the questions below. I have summarized their written feedback.
 
-My friend found that the total-cost chart makes the four totals easy to compare and that the dot plot communicates an important qualification: a city with a higher total does not have a higher price for every item. They suggested four improvements:
+P3 could compare the totals and understood why some dots fall below Pittsburgh’s price. Their suggestions were more specific to the charts:
 
 - Tiny negative contributions in the extra-cost chart are difficult to see.
 - The receipt abbreviates city headings, which makes looking up prices harder.
@@ -291,9 +289,9 @@ I have already clarified the transitions, added a worked example and moved detai
 
 | Evidence | Change | Current status / next check |
 |---|---|---|
-| P1 and P3: transitions between measures need explanation | Add a reading path and brief bridges explaining why the next measure is useful | Implemented in this Part II text; test with remaining participants |
+| P1 and P3: transitions between measures need explanation | Add a reading path and brief bridges explaining why the next measure is useful | Added to the draft; check in the follow-up |
 | P1 and P3: dollar contribution may be confused with percent difference | Add the Seattle potatoes-versus-chicken worked example | Implemented; ask readers to explain why the larger percentage adds fewer dollars |
-| P1 and P3: coverage above/below 100% is unclear | Define 100%, above 100% and below 100%; change Tableau axis to percentages and add a labeled 100% line | Explanation implemented here; Planned for Part III |
+| P1 and P3: coverage above/below 100% is unclear | Define 100%, above 100% and below 100%; change Tableau axis to percentages and add a labeled 100% line | Explanation added; chart formatting planned for Part III |
 | P1: key limitation should sit beside charts | Repeat one concise source limitation by each figure; move detailed methods into an expandable section | Implemented; check whether readers can explain the source limits |
 | P3: receipt headings are shortened | Widen the receipt columns so the full city names are visible | Planned for Part III |
 | P2: more concrete examples | Keep the worked dollars-versus-percent example and add specific before/after design explanations where useful | Worked example already present; evaluate whether readers need another example |
