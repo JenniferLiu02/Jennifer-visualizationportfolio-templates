@@ -4,7 +4,7 @@
 # Same Basket, Different City
 ## An exploratory grocery-price comparison for students considering a move
 
-**Work in progress:** I have developed the storyboard and published five Tableau visualizations. Below, I document my data, interview protocol, a friend’s story feedback, additional feedback on the portfolio framework and separate non-participant design reviews. I still need to complete the three-person research process and compare the responses, so my revision plan is preliminary.
+**Work in progress:** I have developed the storyboard and published five Tableau visualizations. Below, I document my data, interview protocol, two friends’ story feedback, another friend’s comments on the portfolio framework and a separate AI design review. I have compared the feedback below. I still need to follow up on the portfolio-focused response and finish the anonymous participant notes.
 
 **Read this comparison as an illustration, not a city ranking.** Numbeo combines user contributions with manually collected information. Its rolling estimates are not official representative city averages or a uniform 2026 survey. October 1, 2026 is the date the pages were consulted, not a common observation date for all prices.
 
@@ -28,9 +28,9 @@ I have kept my original story sequence: introduce the basket, compare totals, op
 
 In Part I, I proposed using USDA Food-at-Home Monthly Area Prices, which covers 2012–2018 and does not include Pittsburgh, San Francisco or Seattle. For this draft, I switched to Numbeo city entries so I could explore these four cities. This changes the geography from USDA metropolitan areas to Numbeo city definitions; the two datasets are not combined.
 
-My instructor asked me to clarify the geographic scope and city-selection criteria and encouraged me to keep the basket definition simple. All four places here are **U.S. cities**. I chose Pittsburgh as a familiar starting point for my CMU audience and New York, San Francisco and Seattle as illustrative relocation scenarios with available prices for the same items. This is a purposive comparison, **not a verified list of CMU graduates’ top destinations** and not a representative sample of U.S. cities.
+Professor Christopher Goranson asked me to clarify the geographic scope and city-selection criteria and encouraged me to keep the basket definition simple. All four places here are **U.S. cities**. I chose Pittsburgh as a familiar starting point for my CMU audience and New York, San Francisco and Seattle as illustrative relocation scenarios with available prices for the same items. This is a purposive comparison, **not a verified list of CMU graduates’ top destinations** and not a representative sample of U.S. cities.
 
-When I asked about changing data sources, my instructor emphasized making the limitations prominent, avoiding strong conclusions and considering what better data could reveal. I have therefore framed the story around patterns in these estimates, without treating them as predictions of student spending or recommendations about where to move. The basket uses major food groups; detailed calculations appear after the story.
+When I asked about changing data sources, Professor Goranson emphasized making the limitations prominent, avoiding strong conclusions and considering what better data could reveal. I have therefore framed the story around patterns in these estimates, without treating them as predictions of student spending or recommendations about where to move. The basket uses major food groups; detailed calculations appear after the story.
 
 
 </details>
@@ -225,7 +225,7 @@ Specific feedback:
 
 My friend organized the response around the main message, what the charts show and what could be improved. I treat the suggested misunderstandings as issues to test, rather than as mistakes I observed them making.
 
-### Additional friend feedback: portfolio framework
+### P2: feedback on the portfolio framework
 
 I received another written comment about the portfolio framework. The response describes the document as a useful way to organize project planning, audience analysis, preliminary designs and the development process, rather than presenting only finished charts.
 
@@ -233,7 +233,7 @@ I received another written comment about the portfolio framework. The response d
 
 I take this as feedback on the clarity of the portfolio structure. It supports including concrete examples of how a design decision follows from the data or feedback. However, this response discusses the template generally; it does not document the reader’s interpretation of my grocery charts or answers to the interview tasks.
 
-**Research still to complete:** I need to document each participant’s broad audience background and review procedure and complete story-focused research with at least three individuals. I have not counted the general template comment as a completed chart-comprehension interview. Cross-participant agreement and disagreement remain to be established.
+**Follow-up:** I need to add brief anonymous backgrounds and session details to my notes. I also want to ask P2 about the grocery story itself, since this response focuses on the portfolio framework.
 
 ### Supplementary AI design review — not a participant interview
 
@@ -245,11 +245,11 @@ I also asked ChatGPT/Codex for a design critique. I summarize its suggestions he
 
 **Recommendation:** Give every figure one reader question and one short takeaway. Keep the central source limitation adjacent to each chart, with technical details available separately. Verify both desktop and narrow-screen layouts. These are design-review recommendations, not findings about actual participant behavior.
 
-### Additional supplied design critique — explicitly not a human interview
+### P3: feedback on the story and five charts
 
-I received a further critique of the Part II story and its five chart previews. It explicitly states: “It is my review, not a human participant interview.” I therefore keep it separate from my participant findings and do not count its answers toward the three required interviews.
+A third friend reviewed the Part II story and answered the interview questions. They used AI to improve the wording of their response, but the feedback reflects their own review. I summarize their answers below rather than present the edited wording as a verbatim interview transcript.
 
-The review finds that the total-cost chart makes the four totals easy to compare and that the dot plot communicates an important qualification: a city with a higher total does not have a higher price for every item. It identifies four areas for improvement:
+My friend found that the total-cost chart makes the four totals easy to compare and that the dot plot communicates an important qualification: a city with a higher total does not have a higher price for every item. They suggested four improvements:
 
 - Tiny negative contributions in the extra-cost chart are difficult to see.
 - The receipt abbreviates city headings, which makes looking up prices harder.
@@ -257,49 +257,49 @@ The review finds that the total-cost chart makes the four totals easy to compare
 - The geography and missing-time-series sections interrupt the transition from item prices to the $25 comparison; the reviewer suggests placing them after the main story.
 
 <details>
-<summary>Design-review answers to the nine interview prompts (not participant evidence)</summary>
+<summary>P3’s answers to the interview questions</summary>
 
-The following summarizes the supplied review’s answers. I have not treated its first-person reactions as observed human behavior.
+These are summaries of P3’s written answers. The wording was polished with AI; I did not independently observe each action they describe.
 
-| Prompt | Response in the supplied design critique |
+| Prompt | P3’s response |
 |---|---|
 | Audience and cities | Students or recent graduates considering a move; Pittsburgh is a CMU reference point, while the other cities are comparison examples rather than ranked destinations. |
 | Basket | Eight foods in fixed quantities, not a week of groceries or a complete diet. |
 | First chart | Totals range from $23.44 in Pittsburgh to $30.29 in New York; they do not predict personal spending or establish overall affordability. |
 | Extra-cost chart | New York’s eggs and chicken contribute $3.31 more than Pittsburgh’s; a negative category reduces the gap. |
 | Zero-percent line | The same estimated item price as Pittsburgh; a larger percentage gap does not necessarily add more dollars, as the potatoes-and-chicken example shows. |
-| Receipt | Chicken is 1 lb in both Pittsburgh ($5.72) and Seattle ($8.48). The critique identifies shortened city headings as an obstacle to the lookup. |
+| Receipt | Chicken is 1 lb in both Pittsburgh ($5.72) and Seattle ($8.48). P3 reported that the shortened city headings slowed the lookup. |
 | $25 chart | 82.5% means that share of one model basket; 106.7% means slightly more than one. Actual purchases depend on whole packages and item choices. |
 | Date and evidence | October 1 is the consultation date, not a common collection date. A practical budget needs local products, stores and personal shopping habits. |
 | Story flow | The written dollar-versus-percentage example helps, but the distinction should be clearer within the visualizations themselves. |
 
-**The review’s highest-priority suggestion:**
-
-> “Make the $25 chart’s axis percentages and add a labeled 100% reference line.”
+**P3’s main suggestion:** Format the $25 chart’s axis as percentages and add a labeled 100% line so the closing comparison makes sense without the explanatory table.
 
 </details>
 
-### What I take from these different sources
+### What I learned from the feedback
 
-The original story feedback and the supplementary design critique both prioritize clearer changes of measure and a more legible budget baseline. This is agreement between different review sources, not a finding from three human interviews. The general portfolio comment adds a separate concern: concrete examples make the development process easier to understand.
+P1 and P3 both understood the main story, but wanted clearer transitions between dollar amounts, percentage differences and budget coverage. Both also asked for a clearer 100% baseline in the $25 chart. This makes the budget chart my first priority for visual revision.
 
-The supplementary critique also raises issues not addressed in the template comment, especially tiny negative segments and the placement of the geography and time-data discussion. I will test these suggestions with readers rather than assume they affect everyone in the same way. I do not yet have enough comparable human responses to report consistent or conflicting findings across three participants.
+P3 added two specific concerns: the tiny negative segments are hard to see, and the shortened receipt headings slow down price comparisons. P3 also suggested moving the geography and time-data sections after the main story. P2 focused on the portfolio structure and asked for more concrete examples, which supports keeping the potatoes-versus-chicken comparison.
+
+I did not find a direct disagreement in these responses. Their emphasis differs: P1 focuses on explanation, P2 on the portfolio framework, and P3 on chart details and story order. Because P2’s comments are broader, I still need a follow-up on the grocery charts before I can compare all three readers’ understanding of the same tasks.
 
 ## Identified changes for Part III
 
-I have made several text revisions based on my friend’s story feedback and identified further changes from the additional portfolio comment and separate design critiques. The plan below is preliminary; I will revise it after comparing feedback from at least three people.
+I have already clarified the transitions, added a worked example and moved detailed methods out of the main reading path. Next, I will focus on the chart changes below and follow up with P2 about the grocery story.
 
 | Evidence | Change | Current status / next check |
 |---|---|---|
-| P1: transitions between measures need explanation | Add a reading path and brief bridges explaining why the next measure is useful | Implemented in this Part II text; test with remaining participants |
-| P1: dollar contribution may be confused with percent difference | Add the Seattle potatoes-versus-chicken worked example | Implemented; ask readers to explain why the larger percentage adds fewer dollars |
-| P1: coverage above/below 100% is unclear | Define 100%, above 100% and below 100%; change Tableau axis to percentages and add a labeled 100% line | Explanation implemented here; Tableau formatting still pending |
+| P1 and P3: transitions between measures need explanation | Add a reading path and brief bridges explaining why the next measure is useful | Implemented in this Part II text; test with remaining participants |
+| P1 and P3: dollar contribution may be confused with percent difference | Add the Seattle potatoes-versus-chicken worked example | Implemented; ask readers to explain why the larger percentage adds fewer dollars |
+| P1 and P3: coverage above/below 100% is unclear | Define 100%, above 100% and below 100%; change Tableau axis to percentages and add a labeled 100% line | Explanation implemented here; Tableau formatting still pending |
 | P1: key limitation should sit beside charts | Repeat one concise source limitation by each figure; move detailed methods into an expandable section | Implemented; check whether readers can explain the source limits |
-| AI review: receipt layout and color meaning | Widen receipt columns and check legends at the final story width | Tableau/layout refinement pending; not a participant finding |
-| Additional friend comment: more concrete examples | Keep the worked dollars-versus-percent example and add specific before/after design explanations where useful | Worked example already present; evaluate whether readers need another example |
-| Non-participant critique: tiny negative category segments | Add explicit negative-value labels or annotations without hiding or inflating the values | Proposed Tableau refinement; test visibility with readers |
-| Non-participant critique: geography/time discussion interrupts the story | Test moving these two discussions after the $25 comparison while keeping source limitations beside every chart | Proposed sequence for reader testing; current Part I-based sequence retained |
-| Assignment: compare at least three participants | Complete remaining research, document anonymous evidence and identify agreement and disagreement | Pending; revise this plan after real interviews |
+| P3: receipt headings are shortened; AI review: color meaning | Widen receipt columns and check legends at the final story width | Tableau/layout refinement pending |
+| P2: more concrete examples | Keep the worked dollars-versus-percent example and add specific before/after design explanations where useful | Worked example already present; evaluate whether readers need another example |
+| P3: tiny negative category segments | Add explicit negative-value labels or annotations without hiding or inflating the values | Proposed Tableau refinement; test visibility with readers |
+| P3: geography/time discussion interrupts the story | Test moving these two discussions after the $25 comparison while keeping source limitations beside every chart | Proposed sequence for reader testing; current Part I-based sequence retained |
+| Research follow-up | Ask P2 about the grocery charts and add brief anonymous participant backgrounds and session details | Pending |
 
 ## Assignment requirements check
 
@@ -311,7 +311,7 @@ I used the Part II rubric to check what I have included and what I still need to
 | Design: data visualizations — 20 points | Titles, figures, units, legends, source captions and calculations | Draft present; receipt width and Tableau budget-axis/reference-line refinements remain |
 | GitHub final project page — 6 points | Separate Part II page, navigation, chart previews with interactive links, public CSV and documented progress | Present; image rendering checked after publication |
 | User research: protocol — 17 points | Target audience, representative recruitment approach, research goals and interview script | Present |
-| User research: findings — 27 points | One story-focused written response, an additional general portfolio comment, separately labeled non-participant critiques and a provisional revision plan | Incomplete: required three-person process and cross-interview synthesis remain |
+| User research: findings — 27 points | Two story-focused responses, one portfolio-focused response, a comparison of feedback and a revision plan | Follow-up needed: P2’s chart-specific feedback and participant/session descriptions |
 | AI attribution | AI contributions distinguished from my Tableau work and participant feedback | Present |
 | Final submission | Submit this Part II GitHub page URL through the course assignment page | I still need to submit the page URL |
 
@@ -327,10 +327,10 @@ For Part II, I am using this GitHub storyboard to present the draft. My Shorthan
 - [USDA ERS: Food-at-Home Monthly Area Prices](https://www.ers.usda.gov/data-products/food-at-home-monthly-area-prices). Original Part I source; not used in the current numerical comparison.
 - [Jennifer Liu: Final Project Part I](final-project-part-one.md).
 - [Jennifer Liu: Published Tableau workbook](https://public.tableau.com/views/Finalproject_17908994232220/Sheet1?:tabs=yes&:showVizHome=no).
-- 94-870 Telling Stories with Data: Part II assignment instructions and instructor feedback.
+- 94-870 Telling Stories with Data: Part II assignment instructions and feedback from Professor Christopher Goranson.
 
 ## AI acknowledgements
 
-I used OpenAI ChatGPT/Codex to help transcribe and check source values, develop calculations and Python draft charts, review chart clarity, and draft and revise the storyboard, methods and interview protocol. I also used it to organize the supplied written feedback and suggest improvements to the reading flow. I distinguish general portfolio feedback from story-specific feedback and label the supplied non-human critique separately; neither AI review is counted as a participant interview.
+I used OpenAI ChatGPT/Codex to help transcribe and check source values, develop calculations and Python draft charts, review chart clarity, and draft and revise the storyboard, methods and interview protocol. I also used it to organize the supplied written feedback and suggest improvements to the reading flow. P3 used AI to polish the wording of their own feedback. I have labeled those answers as summaries rather than verbatim quotations. The separate critique I requested directly from ChatGPT/Codex remains separate from the human feedback.
 
-I selected the project direction and audience, corresponded with my instructor, and created and published the Tableau visualizations shown here. The Python graphics were exploratory aids. The separate AI design review is not participant research and does not count toward the three interviews. I am responsible for reviewing the AI-assisted wording and calculations and for completing the real interviews and final submission.
+I selected the project direction and audience, corresponded with Professor Christopher Goranson, and created and published the Tableau visualizations shown here. The Python graphics were exploratory aids. The separate AI design review is not participant research and does not count toward the three interviews. I am responsible for reviewing the AI-assisted wording and calculations and for completing the real interviews and final submission.
