@@ -54,13 +54,23 @@ This project critiques the original Makeover Monday visualization, summarizes fe
 ## Final project
 
 ### Same Basket, Different City
-**How far does the same grocery budget go across American cities?**
 
-This project explores how the cost of a standardized grocery basket varies across major U.S. metropolitan areas. Through grocery price comparisons, food-group breakdowns, and receipt-style visuals, I aim to show students and young adults how location affects the purchasing power of the same budget.
+**How far does a $25 illustration budget stretch across four U.S. cities?**
 
-- [Part I: Proposal, outline, sketches, and data](final-project-part-one.md)
-- [Part II: Storyboards and user research](final-project-part-two.md)
-- [Part III: Final story and reflection](final-project-part-three.md)
+The same eight-item grocery list is compared across Pittsburgh, New York, San Francisco and Seattle. The story moves from total cost to the foods behind the gap, then to the share of one basket that $25 could cover.
+
+**[Read Part II: illustrated story and research](final-project-part-two.md)** · [Explore the five Tableau charts](https://public.tableau.com/views/Finalproject_17908994232220/Sheet1?:tabs=yes&:showVizHome=no) · [View the data](part-two-grocery-prices.csv)
+
+| Project stage | What you will find |
+|---|---|
+| [Part I — Original proposal](final-project-part-one.md) | Initial outline, sketches and proposed data sources |
+| [Part II — Current draft](final-project-part-two.md) | Five charts, story progression, source limitations, interview protocol and preliminary feedback |
+| [Part III — Final story](final-project-part-three.md) | Reserved for the final story and reflection |
+
+*Data scope: illustrative Numbeo estimates, not representative city-wide grocery prices or a uniform 2026 survey.*
+
+**Research status:** One friend’s written feedback is documented. The required three-person interview process and cross-interview synthesis are still in progress.
+
 
 ---
 ## Other stuff you can do (you can remove this section - it's just for your reference.)

@@ -4,13 +4,22 @@
 # Same Basket, Different City
 ## An exploratory grocery-price comparison for students considering a move
 
-**Draft status:** Storyboard, five published Tableau visualizations, data documentation and interview protocol are available below. Three real audience interviews, their anonymous findings and the resulting Part III revision plan remain pending.
+**Draft status:** Storyboard, five published Tableau visualizations, data documentation and interview protocol are available below. One friend's written feedback is documented below. The required three-person interview process and cross-interview synthesis are not yet complete; the revision plan is provisional.
 
 **Read this comparison as an illustration, not a city ranking.** Numbeo combines user contributions with manually collected information. Its rolling estimates are not official representative city averages or a uniform 2026 survey. October 1, 2026 is the date the pages were consulted, not a common observation date for all prices.
 
 [Open the five-sheet Tableau workbook](https://public.tableau.com/views/Finalproject_17908994232220/Sheet1?:tabs=yes&:showVizHome=no) · [Download/view the 32 source entries](part-two-grocery-prices.csv)
 
-## Development from Part I and instructor feedback
+**Main message:** In this eight-item comparison, the estimated basket totals differ across the four cities. The gaps come from particular foods and food groups; prices are not uniformly higher for every item.
+
+**Reading path:** Start with the total bill → identify which groups add dollars → inspect the receipt → compare item-level percentages → translate the total into $25 of model basket coverage.
+
+[Read the story](#wireframes--storyboards) · [Data and methods](#data-methods-and-reproducibility) · [Interview protocol](#user-research-protocol) · [Feedback and revisions](#interview-findings) · [Assignment check](#assignment-requirements-check)
+
+<details>
+<summary>How this draft develops Part I and responds to the instructor</summary>
+
+### Development from Part I and instructor feedback
 
 This draft keeps the original sequence: introduce the basket, compare totals, open the receipt, examine food differences, return to a fixed budget and end with a modest budgeting takeaway. It continues the horizontal bar, stacked bar and dot-plot sketches from [Part I](final-project-part-one.md), with two refinements:
 
@@ -22,6 +31,9 @@ The original proposal used USDA Food-at-Home Monthly Area Prices, which covers 2
 The instructor asked for clearer geographic scope and city-selection reasoning and encouraged a simple basket definition. All four places here are **U.S. cities**. Pittsburgh provides a familiar starting point for the CMU audience; New York, San Francisco and Seattle are selected relocation scenarios with available prices for the same items. This is a purposive comparison, **not a verified list of CMU graduates’ top destinations** and not a representative sample of U.S. cities.
 
 In later guidance on the source change, the instructor emphasized prominent limitations, avoiding strong conclusions and considering what better data could reveal. This draft therefore describes patterns in the selected estimates, not actual student expenses or recommendations about where to move. The basket uses major food groups; detailed calculations appear after the story.
+
+
+</details>
 
 ## Wireframes / storyboards
 
@@ -45,39 +57,46 @@ This eight-item list is an author-defined comparison basket. It is not a weekly 
 
 ### 2. The basket stays the same. The bill does not.
 
-[![Sorted horizontal bars comparing estimated eight-item basket totals in four cities](https://public.tableau.com/static/images/Fi/Finalproject_17908994232220/Sheet1/1.png)](https://public.tableau.com/views/Finalproject_17908994232220/Sheet1?:showVizHome=no)
+[![Sorted horizontal bars comparing estimated eight-item basket totals in four cities](part-two-images/sheet-1.png)](https://public.tableau.com/views/Finalproject_17908994232220/Sheet1?:showVizHome=no)
 
 *Figure 1. Estimated basket total in USD. Source: Numbeo city Markets tables, consulted October 1, 2026. Exploratory rolling estimates, not representative city averages.*
 
 The list totals **$23.44 in Pittsburgh, $27.92 in San Francisco, $29.43 in Seattle and $30.29 in New York**. The bars are sorted to make the range easy to compare. This ordering applies to these eight quantities and estimates; a different list, retailer or sample could produce a different result.
 
-The total shows the size of a gap, but not which foods contribute to it. Next, open the bill.
+**Why the next chart uses dollars:** The total tells us how large the bill is. Subtracting Pittsburgh’s price for each group shows where the extra dollars come from.
 
 ### 3. Open the receipt: where does the extra cost come from?
 
-[![Stacked bars showing food-group contributions to each city's basket-cost difference from Pittsburgh](https://public.tableau.com/static/images/Fi/Finalproject_17908994232220/Sheet2/1.png)](https://public.tableau.com/views/Finalproject_17908994232220/Sheet2?:showVizHome=no)
+[![Stacked bars showing food-group contributions to each city's basket-cost difference from Pittsburgh](part-two-images/sheet-2.png)](https://public.tableau.com/views/Finalproject_17908994232220/Sheet2?:showVizHome=no)
 
-*Figure 2. Food-group cost differences from Pittsburgh, in USD. Positive segments add to the gap; negative segments reduce it. Protein includes only eggs and chicken. Source: Numbeo, consulted October 1, 2026.*
+*Figure 2. Food-group cost differences from Pittsburgh, in USD. Positive segments add to the gap; negative segments reduce it. Protein includes only eggs and chicken. Source: Numbeo, consulted October 1, 2026. These are illustrative Numbeo estimates, not representative city-wide grocery prices.*
 
 Relative to Pittsburgh, the **net** difference is **+$6.85 for New York, +$5.99 for Seattle and +$4.48 for San Francisco**. For New York and Seattle, eggs and chicken together contribute $3.31 and $3.00 respectively. In San Francisco, grains contribute $1.35, close to the $1.40 contribution from protein.
 
 These are arithmetic contributions within the selected list, not evidence about the economic causes of city food prices. Segments represent food-group sums: for example, Seattle’s dairy contribution is −$0.04 because the milk estimate is lower than Pittsburgh’s.
 
-[![Four-city receipt table with item quantities, individual estimates and basket totals](https://public.tableau.com/static/images/Fi/Finalproject_17908994232220/Sheet4/1.png)](https://public.tableau.com/views/Finalproject_17908994232220/Sheet4?:showVizHome=no)
+[![Four-city receipt table with item quantities, individual estimates and basket totals](part-two-images/sheet-4.png)](https://public.tableau.com/views/Finalproject_17908994232220/Sheet4?:showVizHome=no)
 
-*Figure 3. A reconstructed receipt comparison. All amounts are USD per stated quantity; these are not actual store receipts. Source: Numbeo, consulted October 1, 2026.*
+*Figure 3. A reconstructed receipt comparison. All amounts are USD per stated quantity; these are not actual store receipts. Source: Numbeo, consulted October 1, 2026. These are illustrative Numbeo estimates, not representative city-wide grocery prices.*
 
-The receipt table lets readers inspect the entries behind the totals. Grouping foods helps summarize the gap, but it can hide differences between individual items.
+The receipt table lets readers inspect the entries behind the totals. **Why switch to percentages next?** A dollar gap measures the contribution to the bill; a percentage gap measures how different an item is relative to its Pittsburgh price. They answer different questions.
 
 ### 4. What actually costs more?
 
-[![Dot plot of individual food-price percentage differences from Pittsburgh, with a zero-percent reference line](https://public.tableau.com/static/images/Fi/Finalproject_17908994232220/Sheet3/1.png)](https://public.tableau.com/views/Finalproject_17908994232220/Sheet3?:showVizHome=no)
+[![Dot plot of individual food-price percentage differences from Pittsburgh, with a zero-percent reference line](part-two-images/sheet-3.png)](https://public.tableau.com/views/Finalproject_17908994232220/Sheet3?:showVizHome=no)
 
-*Figure 4. Percentage difference for the same food and quantity. Pittsburgh is the 0% baseline; each colored dot represents another city. Source: Numbeo, consulted October 1, 2026.*
+*Figure 4. Percentage difference for the same food and quantity. Pittsburgh is the 0% baseline; each colored dot represents another city. Source: Numbeo, consulted October 1, 2026. These are illustrative Numbeo estimates, not representative city-wide grocery prices.*
 
 The pattern varies by food. Seattle’s chicken estimate is about **48.3% higher** than Pittsburgh’s, while its milk estimate is about **3.3% lower**. San Francisco’s rice estimate is about **2.2% lower**. A higher total does not mean every item is more expensive.
 
-A large percentage difference does not necessarily add the most dollars to the basket. The dot plot answers a relative-price question; the preceding stacked chart answers a dollar-contribution question.
+**A bigger percentage does not necessarily mean more extra dollars.** For Seattle, compare:
+
+| Food and quantity | Pittsburgh | Seattle | Extra dollars | Relative difference |
+|---|---:|---:|---:|---:|
+| Potatoes, 1 lb | $1.10 | $1.70 | +$0.60 | +54.5% |
+| Chicken fillets, 1 lb | $5.72 | $8.48 | +$2.76 | +48.3% |
+
+Potatoes have the larger percentage gap, but chicken adds more dollars to the bill. The percentage uses each food’s own Pittsburgh price as its denominator.
 
 ### 5. The geography of the grocery bill
 
@@ -95,9 +114,17 @@ This is a substantive limit: recent access to a rolling table does not turn it i
 
 ### 7. Same money, different basket
 
-[![Horizontal bars showing the fraction of the selected basket covered by an illustrative 25-dollar budget](https://public.tableau.com/static/images/Fi/Finalproject_17908994232220/Sheet5/1.png)](https://public.tableau.com/views/Finalproject_17908994232220/Sheet5?:showVizHome=no)
+**Why return to the total?** After examining the sources of price differences, hold the available money fixed. Dividing $25 by each total turns the price comparison into a share of one model basket.
 
-*Figure 5. Model basket coverage with $25: Pittsburgh 106.7%, San Francisco 89.5%, Seattle 84.9%, New York 82.5%. On the current interactive axis, 1.0 means 100% of one basket. Source: Numbeo estimates and author calculations.*
+[![Horizontal bars showing the fraction of the selected basket covered by an illustrative 25-dollar budget](part-two-images/sheet-5.png)](https://public.tableau.com/views/Finalproject_17908994232220/Sheet5?:showVizHome=no)
+
+*Figure 5. Model basket coverage with $25: Pittsburgh 106.7%, San Francisco 89.5%, Seattle 84.9%, New York 82.5%. On the current interactive axis, 1.0 means 100% of one basket. Source: Numbeo estimates and author calculations. These are illustrative Numbeo estimates, not representative city-wide grocery prices.*
+
+| Coverage | What it means in this model |
+|---|---|
+| 100% (1.0 on the current axis) | Exactly one eight-item basket |
+| Above 100% | More than one basket-equivalent; Pittsburgh reaches 106.7% |
+| Below 100% | Less than one basket-equivalent; New York reaches 82.5%, or 17.5 percentage points short of a full basket |
 
 The $25 amount is a round illustration budget near the sample totals, not a recommended grocery allowance. The model divides $25 by each city’s basket cost and scales all eight quantities proportionally.
 
@@ -110,6 +137,9 @@ This exercise suggests a useful next step: write down the foods and quantities y
 The selected estimates help frame that investigation. They do not predict a student’s spending, establish overall affordability or identify the best place to move. Income, housing, transportation, dietary needs and access to stores would all matter to that broader decision.
 
 ## Data, methods and reproducibility
+
+<details>
+<summary>Source data, formulas, units and detailed limitations</summary>
 
 The public [item-level CSV](part-two-grocery-prices.csv) contains 32 rows: four cities × eight foods. Each row identifies the city, food and quantity, food group, USD estimate, source URL and consultation date. No missing prices were imputed. The source values are retained at their displayed precision.
 
@@ -129,6 +159,8 @@ All eight San Francisco entries were rechecked directly against the source page 
 Numbeo combines crowdsourced and manually collected observations. Collection dates, contributors, retailers, brands and product characteristics differ. These are rolling estimates rather than matched-store observations from a uniform 2026 survey. The consultation date is not the date of every observation.
 
 The data do not support statistical significance claims or confidence intervals for these basket differences. Numbeo’s displayed ranges are not treated as confidence intervals. City-wide contributor counts are not item-specific sample sizes. No causal explanation, universal city ranking, inflation trend or actual student-spending estimate is inferred.
+
+</details>
 
 ### Method and medium
 
@@ -178,11 +210,61 @@ After the sessions, compare repeated misunderstandings with conflicting response
 
 ## Interview findings
 
-**Pending.** Three real interviews have not been documented in this page. No participant responses, quotations or findings have been generated or inferred.
+### P1: preliminary written feedback from one friend
+
+**Evidence status:** Jennifer supplied this written response from one friend. The feedback is authentic material provided for this draft, but the participant’s broad audience description, session date and interview procedure have not been supplied. It is recorded as one preliminary response, not a completed three-person study. No age, student status or observed behavior has been invented.
+
+The respondent correctly identified the intended main message: the same basket has different estimated totals, driven by particular categories and items rather than uniformly higher prices. They also recognized all four comparison types: totals, category dollar differences, item percentages and budget coverage.
+
+Specific feedback:
+
+- **Narrative transitions:** “the transition between them could be more explicit so readers immediately understand why they are moving from one measure to another.”
+- **Dollars versus percentages:** The respondent warned that readers might mistake the largest percentage difference for the largest contribution to the total gap.
+- **Budget interpretation:** They requested a visible 100% reference line and a percentage-formatted axis, with clearer explanations of values above and below 100%.
+- **Limitations:** They recommended placing the central warning beside the main charts while reducing the amount of methodological information in the main reading path.
+
+These are comments in a written response. They are not evidence that the participant personally made every predicted error. The original response was organized under “Main message,” “What the charts show” and “What could be improved”; it is not presented as verbatim answers to interview questions that were not documented.
+
+**P2 and P3:** Not yet documented. Agreement and disagreement across three people cannot yet be assessed. Before submission, complete the required three-person research process, record broad anonymous audience descriptions and compare their responses.
+
+### Supplementary AI design review — not a participant interview
+
+The following is an AI-authored design critique requested by Jennifer. It does not count toward the three real interviews.
+
+**What works:** The five views answer distinct questions and use a consistent dataset. The progression is strongest when the reader is explicitly told what changes between views: total dollars, additional dollars, relative percentages and basket-equivalent coverage.
+
+**Additional concerns:** City colors can be confused with food-group colors when moving between charts. Legends and captions should name what color represents in each view. Receipt headers must remain readable at the width of the final story. Units and food quantities need to stay visible even when a figure is viewed on its own. A zero or 100% baseline should have a label that explains its meaning.
+
+**Recommendation:** Give every figure one reader question and one short takeaway. Keep the central source limitation adjacent to each chart, with technical details available separately. Verify both desktop and narrow-screen layouts. These are design-review recommendations, not findings about actual participant behavior.
 
 ## Identified changes for Part III
 
-**Pending real interview evidence.** The interview-based revision plan will be written after the three sessions and synthesis. No research-based changes are claimed at this stage.
+**Provisional plan based on one friend’s response and a separately labeled AI review.** This is not a completed synthesis of three interviews.
+
+| Evidence | Change | Current status / next check |
+|---|---|---|
+| P1: transitions between measures need explanation | Add a reading path and brief bridges explaining why the next measure is useful | Implemented in this Part II text; test with remaining participants |
+| P1: dollar contribution may be confused with percent difference | Add the Seattle potatoes-versus-chicken worked example | Implemented; ask readers to explain why the larger percentage adds fewer dollars |
+| P1: coverage above/below 100% is unclear | Define 100%, above 100% and below 100%; change Tableau axis to percentages and add a labeled 100% line | Explanation implemented here; Tableau formatting still pending |
+| P1: key limitation should sit beside charts | Repeat one concise source limitation by each figure; move detailed methods into an expandable section | Implemented; check whether readers can explain the source limits |
+| AI review: receipt layout and color meaning | Widen receipt columns and check legends at the final story width | Tableau/layout refinement pending; not a participant finding |
+| Assignment: compare at least three participants | Complete remaining research, document anonymous evidence and identify agreement and disagreement | Pending; revise this plan after real interviews |
+
+## Assignment requirements check
+
+This is a completion check against the supplied 90-point rubric, not a prediction of the instructor’s grade.
+
+| Requirement | Evidence on this page | Status |
+|---|---|---|
+| Wireframes / storyboards — 20 points | Eight-section progression developed from Part I, five real-data Tableau figures, reading transitions and use scenario | Draft present |
+| Design: data visualizations — 20 points | Titles, figures, units, legends, source captions and calculations | Draft present; receipt width and Tableau budget-axis/reference-line refinements remain |
+| GitHub final project page — 6 points | Separate Part II page, navigation, chart previews with interactive links, public CSV and documented progress | Present; image rendering checked after publication |
+| User research: protocol — 17 points | Target audience, representative recruitment approach, research goals and interview script | Present |
+| User research: findings — 27 points | One preliminary written response, specific feedback and a provisional response-to-feedback plan | Incomplete: required three-person process and cross-interview synthesis remain |
+| AI attribution | Specific AI contributions distinguished from Jennifer’s Tableau work and real audience feedback | Present |
+| Final submission | Submit this Part II GitHub page URL through the course assignment page | Student submission still required |
+
+A Shorthand draft and a GitHub storyboard are alternatives for this stage; a completed Shorthand site is not asserted here. Moodboards and personas are optional and are not included. The assignment allows continued Part II work after the deadline, but grading may occur at any point afterward, so unfinished research must remain explicitly labeled.
 
 ## References
 
@@ -198,4 +280,4 @@ After the sessions, compare repeated misunderstandings with conflicting response
 
 ## AI acknowledgements
 
-OpenAI ChatGPT/Codex assisted with source transcription and checks, calculation and Python draft-chart code, reviewing chart clarity, and drafting/editing the storyboard, methods and interview protocol on this page. Jennifer selected the project direction and audience, corresponded with the instructor, and created and published the Tableau visualizations shown here. The Python graphics were exploratory aids; the linked figures are Jennifer’s Tableau work. AI did not conduct participant interviews or generate research findings. Jennifer is responsible for reviewing the wording, assumptions and final submission.
+OpenAI ChatGPT/Codex assisted with source transcription and checks, calculation and Python draft-chart code, reviewing chart clarity, and drafting/editing the storyboard, methods and interview protocol on this page. Jennifer selected the project direction and audience, corresponded with the instructor, and created and published the Tableau visualizations shown here. The Python graphics were exploratory aids; the linked figures are Jennifer’s Tableau work. AI also provided a separately labeled design critique and helped organize the friend’s supplied response. AI did not conduct participant interviews or invent research findings. Jennifer is responsible for reviewing the wording, assumptions and final submission.
