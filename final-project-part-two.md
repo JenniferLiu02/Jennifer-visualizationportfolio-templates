@@ -174,7 +174,7 @@ These are draft visualizations for Part II. In Part III, I plan to use the feedb
 
 My intended audience is college students, graduate students and recent graduates who buy their own groceries and may move to another U.S. city. Readers should not need training in economics or data visualization.
 
-I focused on CMU graduate students because they are part of the audience I want to reach and grocery spending is relevant to their daily lives. The three people who gave feedback are CMU graduate students, and most cook for themselves. This is a small group of friends, so their responses help me spot confusing parts of the story rather than speak for all students.
+I focused on CMU graduate students because they are part of the audience I want to reach and grocery spending is relevant to their daily lives. All three participants are women studying at CMU at the graduate level, and most cook for themselves. This is a small group of friends, so their responses help me spot confusing parts of the story rather than speak for all students.
 
 Recruitment message: “I am testing a short grocery-price story for a class project. Would you be willing to spend about 15–20 minutes reading it and telling me what makes sense or feels confusing? Participation is optional, and I will report feedback anonymously.”
 
@@ -208,34 +208,34 @@ I use P1–P3 instead of names. The findings below come from written responses, 
 
 ## Interview findings
 
-I collected feedback from three CMU graduate students, whom I refer to as P1, P2 and P3. Most of them cook for themselves, so comparing grocery prices is relevant to their everyday lives. Their responses focused on different parts of the project: P1 on the explanations, P2 on understanding the $25 comparison and P3 on the chart details and reading order.
+I collected feedback from three female CMU graduate students, whom I refer to as P1, P2 and P3. Most of them cook for themselves, so comparing grocery prices is relevant to their everyday lives. Their responses focused on different parts of the project: P1 on the explanations, P2 on understanding the $25 comparison and P3 on the chart details and reading order.
 
 ### P1: making the comparisons easier to follow
 
 P1 understood the story’s main point but felt that I could do more to explain why each chart uses a different measure.
 
-They understood that the price gap comes from particular foods, not every item becoming more expensive. Their concern was how quickly the story moves between totals, extra dollars, percentages and budget coverage.
+She understood that the price gap comes from particular foods, not every item becoming more expensive. Her concern was how quickly the story moves between totals, extra dollars, percentages and budget coverage.
 
 Specific feedback:
 
 - **Narrative transitions:** “the transition between them could be more explicit so readers immediately understand why they are moving from one measure to another.”
 - **Dollars versus percentages:** The respondent warned that readers might mistake the largest percentage difference for the largest contribution to the total gap.
-- **Budget interpretation:** They requested a visible 100% reference line and a percentage-formatted axis, with clearer explanations of values above and below 100%.
-- **Limitations:** They recommended placing the central warning beside the main charts while reducing the amount of methodological information in the main reading path.
+- **Budget interpretation:** She requested a visible 100% reference line and a percentage-formatted axis, with clearer explanations of values above and below 100%.
+- **Limitations:** She recommended placing the central warning beside the main charts while reducing the amount of methodological information in the main reading path.
 
 My friend organized the response around the main message, what the charts show and what could be improved. I treat the suggested misunderstandings as issues to test, rather than as mistakes I observed them making.
 
 ### P2: understanding what $25 covers
 
-P2 first commented on the portfolio structure and suggested adding more concrete examples. I then asked them to look at the five charts and answer three questions about the story.
+P2 first commented on the portfolio structure and suggested adding more concrete examples. I then asked her to look at the five charts and answer three questions about the story.
 
 **1. What is the main story?**
 
-P2 understood that I was comparing the same grocery basket across cities, using Pittsburgh as the baseline. They noticed that the charts move from total prices to the food groups and items behind the differences. They felt the $25 comparison made those differences easier to connect to everyday spending.
+P2 understood that I was comparing the same grocery basket across cities, using Pittsburgh as the baseline. She noticed that the charts move from total prices to the food groups and items behind the differences. She felt the $25 comparison made those differences easier to connect to everyday spending.
 
 **2. What do 82.5% and 106.7% mean?**
 
-P2 read 82.5% as the share of the New York basket that $25 would cover. They understood that $25 would cover the full Pittsburgh basket with some money left over, but had to think about the percentages before the meaning became clear:
+P2 read 82.5% as the share of the New York basket that $25 would cover. She understood that $25 would cover the full Pittsburgh basket with some money left over, but had to think about the percentages before the meaning became clear:
 
 > “the percentages were not immediately intuitive to me, especially because a value above 100% is a little unusual when thinking about a grocery basket.”
 
@@ -245,15 +245,15 @@ The $25 chart was the hardest part for P2:
 
 > “I had to stop and figure out what 82.5% and 106.7% were percentages of.”
 
-Their first choice was to label 100% as **one full grocery basket**. They also wanted the axis to use percentages instead of decimals.
+Her first choice was to label 100% as **one full grocery basket**. She also wanted the axis to use percentages instead of decimals.
 
-This helped me see that the issue was not the calculation itself. P2 reached the intended interpretation, but the chart made them work to identify the reference point. I need to make that reference visible in the chart.
+This helped me see that the issue was not the calculation itself. P2 reached the intended interpretation, but the chart made her work to identify the reference point. I need to make that reference visible in the chart.
 
 ### P3: feedback on the story and five charts
 
-P3 reviewed the story and all five charts, then answered the questions below. I have summarized their written feedback.
+P3 reviewed the story and all five charts, then answered the questions below. I have summarized her written feedback.
 
-P3 could compare the totals and understood why some dots fall below Pittsburgh’s price. Their suggestions were more specific to the charts:
+P3 could compare the totals and understood why some dots fall below Pittsburgh’s price. Her suggestions were more specific to the charts:
 
 - Tiny negative contributions in the extra-cost chart are difficult to see.
 - The receipt abbreviates city headings, which makes looking up prices harder.
@@ -283,7 +283,7 @@ The table summarizes P3’s answers, including the parts they found clear and th
 
 ### What I learned from the feedback
 
-All three readers asked for a clearer 100% reference in the budget chart. P2’s follow-up made the problem especially clear: they understood the percentages eventually, but first had to work out what counted as 100%. This makes a labeled “one full grocery basket” line my first priority.
+All three readers asked for a clearer 100% reference in the budget chart. P2’s follow-up made the problem especially clear: she understood the percentages eventually, but first had to work out what counted as 100%. This makes a labeled “one full grocery basket” line my first priority.
 
 P1 and P3 also wanted clearer transitions between extra dollars and percentage differences. P2 understood the overall sequence and felt the $25 chart made the comparison more practical. These responses do not directly conflict: readers could follow the main story while still finding an individual chart hard to read.
 
