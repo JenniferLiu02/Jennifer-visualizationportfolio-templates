@@ -320,4 +320,4 @@ After making these changes, I want to check whether readers can explain the budg
 
 ## AI acknowledgements
 
-I used ChatGPT/Codex to help organize and edit this write-up, check calculations and source values, prepare Python draft graphics, and develop interview questions. I chose the topic and audience and created the published Tableau charts. The feedback comes from three people; P3 used AI to polish their wording. Their answers are summarized here rather than quoted as a verbatim transcript.
+I used ChatGPT/Codex to help polish wording and give me suggestions.
