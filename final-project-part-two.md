@@ -4,7 +4,7 @@
 # Same Basket, Different City
 ## An exploratory grocery-price comparison for students considering a move
 
-**Work in progress:** I have developed the storyboard and published five Tableau visualizations. Below, I document my data, interview protocol and one friend’s written feedback. I still need to complete the three-person research process and compare the responses, so my revision plan is preliminary.
+**Work in progress:** I have developed the storyboard and published five Tableau visualizations. Below, I document my data, interview protocol, a friend’s story feedback, additional feedback on the portfolio framework and separate non-participant design reviews. I still need to complete the three-person research process and compare the responses, so my revision plan is preliminary.
 
 **Read this comparison as an illustration, not a city ranking.** Numbeo combines user contributions with manually collected information. Its rolling estimates are not official representative city averages or a uniform 2026 survey. October 1, 2026 is the date the pages were consulted, not a common observation date for all prices.
 
@@ -225,7 +225,15 @@ Specific feedback:
 
 My friend organized the response around the main message, what the charts show and what could be improved. I treat the suggested misunderstandings as issues to test, rather than as mistakes I observed them making.
 
-**P2 and P3:** I have not documented these responses yet. Once I complete the three-person research process, I will compare what readers agree on, where their interpretations differ and which changes the combined feedback supports.
+### Additional friend feedback: portfolio framework
+
+I received another written comment about the portfolio framework. The response describes the document as a useful way to organize project planning, audience analysis, preliminary designs and the development process, rather than presenting only finished charts.
+
+> “Some sections could add more concrete examples to lower the learning curve for beginners.”
+
+I take this as feedback on the clarity of the portfolio structure. It supports including concrete examples of how a design decision follows from the data or feedback. However, this response discusses the template generally; it does not document the reader’s interpretation of my grocery charts or answers to the interview tasks.
+
+**Research still to complete:** I need to document each participant’s broad audience background and review procedure and complete story-focused research with at least three individuals. I have not counted the general template comment as a completed chart-comprehension interview. Cross-participant agreement and disagreement remain to be established.
 
 ### Supplementary AI design review — not a participant interview
 
@@ -237,9 +245,49 @@ I also asked ChatGPT/Codex for a design critique. I summarize its suggestions he
 
 **Recommendation:** Give every figure one reader question and one short takeaway. Keep the central source limitation adjacent to each chart, with technical details available separately. Verify both desktop and narrow-screen layouts. These are design-review recommendations, not findings about actual participant behavior.
 
+### Additional supplied design critique — explicitly not a human interview
+
+I received a further critique of the Part II story and its five chart previews. It explicitly states: “It is my review, not a human participant interview.” I therefore keep it separate from my participant findings and do not count its answers toward the three required interviews.
+
+The review finds that the total-cost chart makes the four totals easy to compare and that the dot plot communicates an important qualification: a city with a higher total does not have a higher price for every item. It identifies four areas for improvement:
+
+- Tiny negative contributions in the extra-cost chart are difficult to see.
+- The receipt abbreviates city headings, which makes looking up prices harder.
+- The budget chart mixes percentage labels with a decimal axis and needs a labeled 100% reference line.
+- The geography and missing-time-series sections interrupt the transition from item prices to the $25 comparison; the reviewer suggests placing them after the main story.
+
+<details>
+<summary>Design-review answers to the nine interview prompts (not participant evidence)</summary>
+
+The following summarizes the supplied review’s answers. I have not treated its first-person reactions as observed human behavior.
+
+| Prompt | Response in the supplied design critique |
+|---|---|
+| Audience and cities | Students or recent graduates considering a move; Pittsburgh is a CMU reference point, while the other cities are comparison examples rather than ranked destinations. |
+| Basket | Eight foods in fixed quantities, not a week of groceries or a complete diet. |
+| First chart | Totals range from $23.44 in Pittsburgh to $30.29 in New York; they do not predict personal spending or establish overall affordability. |
+| Extra-cost chart | New York’s eggs and chicken contribute $3.31 more than Pittsburgh’s; a negative category reduces the gap. |
+| Zero-percent line | The same estimated item price as Pittsburgh; a larger percentage gap does not necessarily add more dollars, as the potatoes-and-chicken example shows. |
+| Receipt | Chicken is 1 lb in both Pittsburgh ($5.72) and Seattle ($8.48). The critique identifies shortened city headings as an obstacle to the lookup. |
+| $25 chart | 82.5% means that share of one model basket; 106.7% means slightly more than one. Actual purchases depend on whole packages and item choices. |
+| Date and evidence | October 1 is the consultation date, not a common collection date. A practical budget needs local products, stores and personal shopping habits. |
+| Story flow | The written dollar-versus-percentage example helps, but the distinction should be clearer within the visualizations themselves. |
+
+**The review’s highest-priority suggestion:**
+
+> “Make the $25 chart’s axis percentages and add a labeled 100% reference line.”
+
+</details>
+
+### What I take from these different sources
+
+The original story feedback and the supplementary design critique both prioritize clearer changes of measure and a more legible budget baseline. This is agreement between different review sources, not a finding from three human interviews. The general portfolio comment adds a separate concern: concrete examples make the development process easier to understand.
+
+The supplementary critique also raises issues not addressed in the template comment, especially tiny negative segments and the placement of the geography and time-data discussion. I will test these suggestions with readers rather than assume they affect everyone in the same way. I do not yet have enough comparable human responses to report consistent or conflicting findings across three participants.
+
 ## Identified changes for Part III
 
-I have made several text revisions based on my friend’s response and identified additional changes to test. The plan below is preliminary; I will revise it after comparing feedback from at least three people.
+I have made several text revisions based on my friend’s story feedback and identified further changes from the additional portfolio comment and separate design critiques. The plan below is preliminary; I will revise it after comparing feedback from at least three people.
 
 | Evidence | Change | Current status / next check |
 |---|---|---|
@@ -248,6 +296,9 @@ I have made several text revisions based on my friend’s response and identifie
 | P1: coverage above/below 100% is unclear | Define 100%, above 100% and below 100%; change Tableau axis to percentages and add a labeled 100% line | Explanation implemented here; Tableau formatting still pending |
 | P1: key limitation should sit beside charts | Repeat one concise source limitation by each figure; move detailed methods into an expandable section | Implemented; check whether readers can explain the source limits |
 | AI review: receipt layout and color meaning | Widen receipt columns and check legends at the final story width | Tableau/layout refinement pending; not a participant finding |
+| Additional friend comment: more concrete examples | Keep the worked dollars-versus-percent example and add specific before/after design explanations where useful | Worked example already present; evaluate whether readers need another example |
+| Non-participant critique: tiny negative category segments | Add explicit negative-value labels or annotations without hiding or inflating the values | Proposed Tableau refinement; test visibility with readers |
+| Non-participant critique: geography/time discussion interrupts the story | Test moving these two discussions after the $25 comparison while keeping source limitations beside every chart | Proposed sequence for reader testing; current Part I-based sequence retained |
 | Assignment: compare at least three participants | Complete remaining research, document anonymous evidence and identify agreement and disagreement | Pending; revise this plan after real interviews |
 
 ## Assignment requirements check
@@ -260,7 +311,7 @@ I used the Part II rubric to check what I have included and what I still need to
 | Design: data visualizations — 20 points | Titles, figures, units, legends, source captions and calculations | Draft present; receipt width and Tableau budget-axis/reference-line refinements remain |
 | GitHub final project page — 6 points | Separate Part II page, navigation, chart previews with interactive links, public CSV and documented progress | Present; image rendering checked after publication |
 | User research: protocol — 17 points | Target audience, representative recruitment approach, research goals and interview script | Present |
-| User research: findings — 27 points | One preliminary written response, specific feedback and a provisional response-to-feedback plan | Incomplete: required three-person process and cross-interview synthesis remain |
+| User research: findings — 27 points | One story-focused written response, an additional general portfolio comment, separately labeled non-participant critiques and a provisional revision plan | Incomplete: required three-person process and cross-interview synthesis remain |
 | AI attribution | AI contributions distinguished from my Tableau work and participant feedback | Present |
 | Final submission | Submit this Part II GitHub page URL through the course assignment page | I still need to submit the page URL |
 
@@ -280,6 +331,6 @@ For Part II, I am using this GitHub storyboard to present the draft. My Shorthan
 
 ## AI acknowledgements
 
-I used OpenAI ChatGPT/Codex to help transcribe and check source values, develop calculations and Python draft charts, review chart clarity, and draft and revise the storyboard, methods and interview protocol. I also used it to organize my friend’s written feedback and suggest improvements to the reading flow.
+I used OpenAI ChatGPT/Codex to help transcribe and check source values, develop calculations and Python draft charts, review chart clarity, and draft and revise the storyboard, methods and interview protocol. I also used it to organize the supplied written feedback and suggest improvements to the reading flow. I distinguish general portfolio feedback from story-specific feedback and label the supplied non-human critique separately; neither AI review is counted as a participant interview.
 
 I selected the project direction and audience, corresponded with my instructor, and created and published the Tableau visualizations shown here. The Python graphics were exploratory aids. The separate AI design review is not participant research and does not count toward the three interviews. I am responsible for reviewing the AI-assisted wording and calculations and for completing the real interviews and final submission.
