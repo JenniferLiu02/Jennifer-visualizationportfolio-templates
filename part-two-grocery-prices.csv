@@ -1,0 +1,33 @@
+City,Item and quantity,Food group,Price USD,Source URL,Consulted date
+Pittsburgh,Milk · 1 liter,Dairy,1.23,https://www.numbeo.com/cost-of-living/in/Pittsburgh,2026-10-01
+Pittsburgh,White bread · 1 lb loaf,Grains,3.42,https://www.numbeo.com/cost-of-living/in/Pittsburgh,2026-10-01
+Pittsburgh,White rice · 1 lb,Grains,2.25,https://www.numbeo.com/cost-of-living/in/Pittsburgh,2026-10-01
+Pittsburgh,Eggs · 12 large,Protein,4.8,https://www.numbeo.com/cost-of-living/in/Pittsburgh,2026-10-01
+Pittsburgh,Chicken fillets · 1 lb,Protein,5.72,https://www.numbeo.com/cost-of-living/in/Pittsburgh,2026-10-01
+Pittsburgh,Apples · 1 lb,Fruit,2.36,https://www.numbeo.com/cost-of-living/in/Pittsburgh,2026-10-01
+Pittsburgh,Tomatoes · 1 lb,Vegetables,2.56,https://www.numbeo.com/cost-of-living/in/Pittsburgh,2026-10-01
+Pittsburgh,Potatoes · 1 lb,Vegetables,1.1,https://www.numbeo.com/cost-of-living/in/Pittsburgh,2026-10-01
+New York,Milk · 1 liter,Dairy,1.35,https://www.numbeo.com/cost-of-living/in/New-York,2026-10-01
+New York,White bread · 1 lb loaf,Grains,4.29,https://www.numbeo.com/cost-of-living/in/New-York,2026-10-01
+New York,White rice · 1 lb,Grains,3.28,https://www.numbeo.com/cost-of-living/in/New-York,2026-10-01
+New York,Eggs · 12 large,Protein,6.16,https://www.numbeo.com/cost-of-living/in/New-York,2026-10-01
+New York,Chicken fillets · 1 lb,Protein,7.67,https://www.numbeo.com/cost-of-living/in/New-York,2026-10-01
+New York,Apples · 1 lb,Fruit,2.96,https://www.numbeo.com/cost-of-living/in/New-York,2026-10-01
+New York,Tomatoes · 1 lb,Vegetables,3.0,https://www.numbeo.com/cost-of-living/in/New-York,2026-10-01
+New York,Potatoes · 1 lb,Vegetables,1.58,https://www.numbeo.com/cost-of-living/in/New-York,2026-10-01
+San Francisco,Milk · 1 liter,Dairy,1.75,https://www.numbeo.com/cost-of-living/in/San-Francisco,2026-10-01
+San Francisco,White bread · 1 lb loaf,Grains,4.82,https://www.numbeo.com/cost-of-living/in/San-Francisco,2026-10-01
+San Francisco,White rice · 1 lb,Grains,2.2,https://www.numbeo.com/cost-of-living/in/San-Francisco,2026-10-01
+San Francisco,Eggs · 12 large,Protein,4.93,https://www.numbeo.com/cost-of-living/in/San-Francisco,2026-10-01
+San Francisco,Chicken fillets · 1 lb,Protein,6.99,https://www.numbeo.com/cost-of-living/in/San-Francisco,2026-10-01
+San Francisco,Apples · 1 lb,Fruit,2.78,https://www.numbeo.com/cost-of-living/in/San-Francisco,2026-10-01
+San Francisco,Tomatoes · 1 lb,Vegetables,3.11,https://www.numbeo.com/cost-of-living/in/San-Francisco,2026-10-01
+San Francisco,Potatoes · 1 lb,Vegetables,1.34,https://www.numbeo.com/cost-of-living/in/San-Francisco,2026-10-01
+Seattle,Milk · 1 liter,Dairy,1.19,https://www.numbeo.com/cost-of-living/in/Seattle,2026-10-01
+Seattle,White bread · 1 lb loaf,Grains,4.59,https://www.numbeo.com/cost-of-living/in/Seattle,2026-10-01
+Seattle,White rice · 1 lb,Grains,2.83,https://www.numbeo.com/cost-of-living/in/Seattle,2026-10-01
+Seattle,Eggs · 12 large,Protein,5.04,https://www.numbeo.com/cost-of-living/in/Seattle,2026-10-01
+Seattle,Chicken fillets · 1 lb,Protein,8.48,https://www.numbeo.com/cost-of-living/in/Seattle,2026-10-01
+Seattle,Apples · 1 lb,Fruit,2.7,https://www.numbeo.com/cost-of-living/in/Seattle,2026-10-01
+Seattle,Tomatoes · 1 lb,Vegetables,2.9,https://www.numbeo.com/cost-of-living/in/Seattle,2026-10-01
+Seattle,Potatoes · 1 lb,Vegetables,1.7,https://www.numbeo.com/cost-of-living/in/Seattle,2026-10-01
