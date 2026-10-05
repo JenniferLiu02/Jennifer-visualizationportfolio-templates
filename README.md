@@ -55,22 +55,13 @@ This project critiques the original Makeover Monday visualization, summarizes fe
 
 ### Same Basket, Different City
 
-**How far does a $25 illustration budget stretch across four U.S. cities?**
+What happens to the price of the same eight-item grocery basket in Pittsburgh, New York, San Francisco and Seattle? I start with the total bill, look at the foods behind the difference, and end with what $25 could cover in this model.
 
-The same eight-item grocery list is compared across Pittsburgh, New York, San Francisco and Seattle. The story moves from total cost to the foods behind the gap, then to the share of one basket that $25 could cover.
+**[Read the finished Shorthand story](https://carnegiemellon.shorthandstories.com/same-basket-different-city/index.html)**
 
-**[Read Part II: illustrated story and research](final-project-part-two.md)** · [Explore the five Tableau charts](https://public.tableau.com/views/Finalproject_17908994232220/Sheet1?:tabs=yes&:showVizHome=no) · [View the data](part-two-grocery-prices.csv)
+[Part I: proposal and sketches](final-project-part-one.md) · [Part II: storyboard and reader feedback](final-project-part-two.md) · [Part III: changes and reflection](final-project-part-three.md) · [Price data](part-two-grocery-prices.csv)
 
-| Project stage | What you will find |
-|---|---|
-| [Part I — Original proposal](final-project-part-one.md) | Initial outline, sketches and proposed data sources |
-| [Part II — Current draft](final-project-part-two.md) | Five charts, story progression, source limitations, interview protocol and preliminary feedback |
-| [Part III — Final story](final-project-part-three.md) | Reserved for the final story and reflection |
-
-*Data scope: illustrative Numbeo estimates, not representative city-wide grocery prices or a uniform 2026 survey.*
-
-**Research status:** One friend’s written feedback is documented. The required three-person interview process and cross-interview synthesis are still in progress.
-
+These Numbeo prices are illustrative estimates, not representative city-wide grocery prices.
 
 ---
 ## Other stuff you can do (you can remove this section - it's just for your reference.)
