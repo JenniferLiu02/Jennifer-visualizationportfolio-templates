@@ -1,36 +1,37 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](README.md) | [data viz examples](dataviz-examples.md) | [critique by design](critique-by-design.md) | [final project I](final-project-part-one.md) | [final project II](final-project-part-two.md) | [final project III](final-project-part-three.md) |
 
-# The final data story
-> Include a link to your final data story on Shorthand, Esri StoryMaps, etc. here. 
+# Final Project Part III: Same Basket, Different City
 
-Text here!
+[Read the finished Shorthand story](https://carnegiemellon.shorthandstories.com/same-basket-different-city/index.html) · [See the Part II storyboard and interview notes](final-project-part-two.md) · [View the 32 price entries](part-two-grocery-prices.csv)
 
-# Changes made since Part II
-> Include few paragraphs that reflects on changes you made since the completion of Part II. 
+The question I started with is still the one I ask in the final story: if I take the same grocery list to another city, how much does the bill change? I compare eight foods in fixed quantities in Pittsburgh, New York, San Francisco and Seattle. For this list, the estimated total ranges from $23.44 in Pittsburgh to $30.29 in New York. The difference comes from particular foods; a higher total does not mean that every item costs more.
 
-Text here!
+This is a small illustration for students considering a move, not a ranking of affordable cities. The figures use Numbeo estimates from pages I consulted on October 1, 2026. That date is not a common collection date, and the estimates are not representative city-wide grocery prices. I say this near the first chart and again with the sources.
 
-## The audience
-> Talk about who you identified as the audience for your final data story.  Include any other information you've used that helped you narrow the focus (e.g. insights from your interviews, personas, etc.).  Note any specific adjustments you made to your final project to make it work for your audience.
+## What changed after Part II
 
-Text here!
+I kept the path from my original [Part I proposal](final-project-part-one.md): compare the total, look inside the basket, then ask what a fixed budget covers. I made the shifts between those questions more explicit. Before the food-group chart I say that it measures **extra dollars** relative to Pittsburgh. Before the item chart I say that it measures each food's **percentage difference** from its Pittsburgh price. Seattle's potatoes and chicken make the distinction concrete: potatoes have the larger percentage difference, while chicken adds more dollars to the bill.
 
-## Final design decisions
-> You can specifically break out your design decisions here, or include it under *Changes made since Part II* and delete this section. Talk about the design decisions you had to make along the way, and reflect on anything in particular that stands out to you that you learned working through the process.  Include any other information that helps round out your data story. 
+Three CMU graduate students read the Part II draft. Their most consistent concern was the $25 chart. They could eventually explain 82.5% and 106.7%, but the chart did not immediately say what 100% represented. In the final story I drew a new budget chart with a percentage axis and a line labeled **“100% = one basket.”** I also explain that the model scales quantities proportionally; it does not describe what someone could literally put in a cart.
 
-Text here!
+The Tableau receipt in Part II cut off long city names, so I rebuilt it as a table with full headings and the same eight prices. I kept the interactive Tableau charts for the total, food-group and item comparisons, but gave them more room on the Shorthand page. Short captions and source cautions sit beside the figures. The longer explanation of dates, formulas and data limitations comes after the main comparison.
 
-## References
-> **You should have already included detailed references on your Shorthand story** - if so, you do not need to list them twice, unless you used additional references for specific to your writeup. Use this section to capture any additional special notes or information necessary. If there is additional information for your shorthand readers that you've placed on this page, link from Shorthand to this page. Make sure to double-check that you aren't using copyright material and that you have added / updated any citations or other content that you used to create your data story.  Make sure you have cited external sources correctly.
+Professor Christopher Goranson suggested a sample narrative or persona and thinking about resources for CMU graduate students. I added a brief hypothetical student decision after the $25 chart: what I would check before using these numbers to plan a move. I also link to the [CMU Pantry](https://www.cmu.edu/student-affairs/resources/cmu-pantry/) as a resource for students who need supplemental food while at CMU. Neither addition turns the basket into a meal plan or changes the price calculations.
 
-## AI acknowledgements
-> If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here.
+## Who I made it for
 
-Text here!
+I wrote for CMU students and recent graduates who buy groceries and may move to another U.S. city. Pittsburgh is the familiar reference point. The other three cities are examples with matching food entries; I do not claim they are the most common CMU destinations. The three readers in Part II were women in CMU graduate programs, most of whom cook for themselves. Their responses helped me make the units, reference point and reading order clearer. They are useful design feedback, not a representative survey of students.
 
-# Final thoughts
-> You can summarize any final thoughts / reflections that don't fit well in the previous sections here.  How did it go?  What did you run out of time for, or wish you had a chance to revisit?  What were you most excited about?  Include any final reflections as you think they might help us understand your process.  If you already included such reflections elsewhere, you can delete this section. 
+## Design choices and what I learned
 
-Text here!
+The basket stays fixed so the city comparison has a common denominator. It includes grains, vegetables, fruit, dairy and protein, but it is not a week's groceries or a complete diet. I used bars for comparing totals and dollar contributions, a dot plot for item percentages, a readable price table for exact lookup and a separate percentage chart for the $25 question. The category chart's tiny negative values are still hard to see at a glance; I explain the sign and give Seattle's milk as a concrete example rather than pretending the small mark is prominent.
 
+Building the final page showed me how much a caption or axis label can change the reading of a chart. I had put the calculation in Part II prose, but P2 still had to pause at the budget percentages. Making “one basket” visible in the chart did more than another paragraph would have. I also learned to keep a limit next to the claim it qualifies, instead of asking readers to find it in a distant methods section.
 
+The final story does not estimate what any particular student will spend. A stronger study would compare matching products at documented stores in each city, collect them during the same periods and repeat the collection over time. That evidence would support conclusions that this exploratory set of rolling estimates cannot.
+
+## Sources and credits
+
+The [Shorthand story](https://carnegiemellon.shorthandstories.com/same-basket-different-city/index.html#sources) links to the four Numbeo city pages, Numbeo's methodology, the CMU Pantry page, the item-level CSV and the Part II research notes. The Tableau workbook and the revised $25 chart use those 32 listed price entries and my calculations. I used no external photos or illustrations. The story includes a hypothetical student scenario, clearly labeled as such; it is not a participant quote.
+
+I used ChatGPT/Codex to help edit wording, build the Shorthand layout and check the presentation of the calculations. The source choice, story question and interview feedback are documented in Parts I and II.
