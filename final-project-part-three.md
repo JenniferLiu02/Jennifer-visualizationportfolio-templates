@@ -34,4 +34,4 @@ The final story does not estimate what any particular student will spend. A stro
 
 The [Shorthand story](https://carnegiemellon.shorthandstories.com/same-basket-different-city/index.html#sources) links to the four Numbeo city pages, Numbeo's methodology, the CMU Pantry page, the item-level CSV and the Part II research notes. The Tableau workbook and the revised $25 chart use those 32 listed price entries and my calculations. I used no external photos or illustrations. The story includes a hypothetical student scenario, clearly labeled as such; it is not a participant quote.
 
-I used ChatGPT/Codex to help edit wording, build the Shorthand layout and check the presentation of the calculations. The source choice, story question and interview feedback are documented in Parts I and II.
+I used ChatGPT/Codex to help edit wording.
