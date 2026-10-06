@@ -20,7 +20,7 @@ Professor Christopher Goranson suggested a sample narrative or persona and think
 
 ## Who I made it for
 
-I wrote first for MISM-BIDA classmates who buy groceries and are deciding where to live after CMU. Based on my experience of the program, these four cities reflect plausible places to stay or move; I did not use an official CMU placement dataset to rank them. Pittsburgh gives us a familiar starting point. Holding the eight-item list fixed helps us feel the scale of a price difference before making our own budgets. The three readers in Part II were women in CMU graduate programs, most of whom cook for themselves. Their responses helped me clarify the units, the Pittsburgh baseline and what 100% means in the $25 chart. Their comments are design feedback, not a representative survey.
+I wrote first for CMU students and recent graduate classmates who buy groceries and are deciding where to live after CMU. Based on my experience of the program, these four cities reflect plausible places to stay or move; I did not use an official CMU placement dataset to rank them. Pittsburgh gives us a familiar starting point. Holding the eight-item list fixed helps us feel the scale of a price difference before making our own budgets. The three readers in Part II were women in CMU graduate programs, most of whom cook for themselves. Their responses helped me clarify the units, the Pittsburgh baseline and what 100% means in the $25 chart. Their comments are design feedback, not a representative survey.
 
 ## Design choices and what I learned
 
