@@ -6,7 +6,7 @@
 
 The question I started with is still the one I ask in the final story: if I take the same grocery list to another city, how much does the bill change? I compare eight foods in fixed quantities in Pittsburgh, New York, San Francisco and Seattle. For this list, the estimated total ranges from $23.44 in Pittsburgh to $30.29 in New York. The difference comes from particular foods; a higher total does not mean that every item costs more.
 
-This is a small illustration for students considering a move, not a ranking of affordable cities. The figures use Numbeo estimates from pages I consulted on October 1, 2026. That date is not a common collection date, and the estimates are not representative city-wide grocery prices. I say this near the first chart and again with the sources.
+I chose these cities with MISM-BIDA students' post-graduation moves in mind, rather than at random. Pittsburgh represents staying near CMU; New York, San Francisco and Seattle reflect places graduates may move for work. I want classmates to get a feel for the price gap they might encounter when the same grocery list moves with them. This is an illustration, not an official destination ranking or a personal budget. The Numbeo pages were consulted on October 1, 2026; that is not a common collection date, and the estimates are not representative city-wide grocery prices.
 
 ## What changed after Part II
 
@@ -20,7 +20,7 @@ Professor Christopher Goranson suggested a sample narrative or persona and think
 
 ## Who I made it for
 
-I wrote for CMU students and recent graduates who buy groceries and may move to another U.S. city. Pittsburgh is the familiar reference point. The other three cities are examples with matching food entries; I do not claim they are the most common CMU destinations. The three readers in Part II were women in CMU graduate programs, most of whom cook for themselves. Their responses helped me make the units, reference point and reading order clearer. They are useful design feedback, not a representative survey of students.
+I wrote first for MISM-BIDA classmates who buy groceries and are deciding where to live after CMU. Based on my experience of the program, these four cities reflect plausible places to stay or move; I did not use an official CMU placement dataset to rank them. Pittsburgh gives us a familiar starting point. Holding the eight-item list fixed helps us feel the scale of a price difference before making our own budgets. The three readers in Part II were women in CMU graduate programs, most of whom cook for themselves. Their responses helped me clarify the units, the Pittsburgh baseline and what 100% means in the $25 chart. Their comments are design feedback, not a representative survey.
 
 ## Design choices and what I learned
 
