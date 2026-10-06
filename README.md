@@ -55,7 +55,7 @@ This project critiques the original Makeover Monday visualization, summarizes fe
 
 ### Same Basket, Different City
 
-What happens to the price of the same eight-item grocery basket in Pittsburgh, New York, San Francisco and Seattle? I start with the total bill, look at the foods behind the difference, and end with what $25 could cover in this model.
+For MISM-BIDA classmates thinking about life after CMU, I compare the same eight-item grocery basket in Pittsburgh, New York, San Francisco and Seattle. I chose these as relevant places to stay or move, not as an official destination ranking. The story shows the size of the price gap, the foods behind it, and what $25 could cover in this model.
 
 **[Read the finished Shorthand story](https://carnegiemellon.shorthandstories.com/same-basket-different-city/index.html)**
 
