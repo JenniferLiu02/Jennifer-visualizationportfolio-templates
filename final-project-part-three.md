@@ -12,10 +12,11 @@ I chose these cities with MISM-BIDA students' post-graduation moves in mind, rat
 
 I kept the path from my original [Part I proposal](final-project-part-one.md): compare the total, look inside the basket, then ask what a fixed budget covers. Part I proposed USDA metropolitan-area data and considered a map and a time-series chart. In [Part II](final-project-part-two.md), I explained why I switched to Numbeo city entries: the USDA dataset did not cover three of the cities I wanted to compare. The four-city Numbeo snapshot also cannot support a broader geographic pattern or a price trend, so I left out the map and line chart. I did not combine the two sources. I made the shifts between the remaining questions more explicit. Before the food-group chart I say that it measures **extra dollars** relative to Pittsburgh. Before the item chart I say that it measures each food's **percentage difference** from its Pittsburgh price. Seattle's potatoes and chicken make the distinction concrete: potatoes have the larger percentage difference, while chicken adds more dollars to the bill.
 
-Three CMU graduate students read the Part II draft. Their most consistent concern was the $25 chart. They could eventually explain 82.5% and 106.7%, but the chart did not immediately say what 100% represented. In the final story I drew a new budget chart with a percentage axis and a line labeled **“100% = one basket.”** I also explain that the model scales quantities proportionally; it does not describe what someone could literally put in a cart.
+Three CMU graduate students read the Part II draft. Their most consistent concern was the $25 chart. They could eventually explain 82.5% and 106.7%, but the chart did not immediately say what 100% represented. In the final story I drew a new budget chart with a percentage axis and a line labeled **“100% = one basket.”** I also explain that the percentages compare $25 with the full basket cost. They do not show what someone could literally put in a cart.
 
-The Tableau receipt in Part II cut off long city names, so I rebuilt it as a table with full headings and the same eight prices. I kept the interactive Tableau charts for the total, food-group and item comparisons, but gave them more room on the Shorthand page. Short captions and source cautions sit beside the figures. The longer explanation of dates, formulas and data limitations comes after the main comparison.
+The Tableau receipt in Part II cut off long city names, so I rebuilt it as a table with full headings and the same eight prices. I also rebuilt the total, food-group, item and $25 comparisons with HTML and CSS in Shorthand. All five use the same prices and calculations as my Tableau drafts, which I link beside the final charts. This change made city names, units and the 100% line easier to read on desktop and phone. Short captions and source cautions sit beside the figures. The longer explanation of dates, formulas and data limitations comes after the main comparison.
 
+Professor Christopher Goranson suggested a sample student story and a closer look at the budget. I added a short hypothetical scenario after the $25 chart about how I would check real store prices before planning a move.
 
 ## Who I made it for
 
@@ -31,6 +32,10 @@ The final story does not estimate what any particular student will spend. A stro
 
 ## Sources and credits
 
-The [Shorthand story](https://carnegiemellon.shorthandstories.com/same-basket-different-city/index.html#sources) links to the four Numbeo city pages, Numbeo's methodology, the CMU Pantry page, the item-level CSV and the Part II research notes. The Tableau workbook and the revised $25 chart use those 32 listed price entries and my calculations. I used no external photos or illustrations. The story includes a hypothetical student scenario, clearly labeled as such; it is not a participant quote.
+The [Shorthand story](https://carnegiemellon.shorthandstories.com/same-basket-different-city/index.html#sources) links to the sources below. Its five final comparisons use the 32 listed price entries and my calculations. The Tableau links beside the charts show earlier drafts. The student scenario is hypothetical, not a participant quote.
+
+- Grocery prices: Numbeo's [Pittsburgh](https://www.numbeo.com/cost-of-living/in/Pittsburgh), [New York](https://www.numbeo.com/cost-of-living/in/New-York), [San Francisco](https://www.numbeo.com/cost-of-living/in/San-Francisco) and [Seattle](https://www.numbeo.com/cost-of-living/in/Seattle) Markets tables, checked October 1, 2026. See also [Numbeo's methodology](https://www.numbeo.com/common/motivation_and_methodology.jsp) and my [item-level CSV](part-two-grocery-prices.csv).
+- Photos: [SHVETS production](https://www.pexels.com/photo/man-in-white-t-shirt-holding-brown-paper-bag-8900035/) and [Ivan S](https://www.pexels.com/photo/a-woman-in-a-grocery-store-7990381/) on Pexels. I credit them beside the photos in Shorthand.
+- Process: [Part I proposal](final-project-part-one.md) and [Part II storyboard and reader feedback](final-project-part-two.md).
 
 I used ChatGPT/Codex to help edit wording.
