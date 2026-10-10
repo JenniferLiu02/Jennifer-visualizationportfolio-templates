@@ -16,7 +16,6 @@ Three CMU graduate students read the Part II draft. Their most consistent concer
 
 The Tableau receipt in Part II cut off long city names, so I rebuilt it as a table with full headings and the same eight prices. I kept the interactive Tableau charts for the total, food-group and item comparisons, but gave them more room on the Shorthand page. Short captions and source cautions sit beside the figures. The longer explanation of dates, formulas and data limitations comes after the main comparison.
 
-Professor Christopher Goranson suggested a sample narrative or persona and thinking about resources for CMU graduate students. I added a brief hypothetical student decision after the $25 chart: what I would check before using these numbers to plan a move. I also link to the [CMU Pantry](https://www.cmu.edu/student-affairs/resources/cmu-pantry/) as a resource for students who need supplemental food while at CMU. Neither addition turns the basket into a meal plan or changes the price calculations.
 
 ## Who I made it for
 
