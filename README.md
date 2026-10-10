@@ -1,53 +1,49 @@
-| [home page](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/) | [data viz examples](dataviz-examples.md) | [critique by design](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/critique-by-design) | [final project I](final-project-part-one.md) | [final project II](final-project-part-two.md) | [final project III](final-project-part-three.md) |
+<nav aria-label="Portfolio navigation" style="display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; margin-bottom: 1.5rem;">
+<a href="https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/">Home</a>
+<a href="https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/dataviz-examples.html">Project Index</a>
+<a href="https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/critique-by-design.html">Critique by Design</a>
+<a href="https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/final-project-part-one.html">Final Project I</a>
+<a href="https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/final-project-part-two.html">Final Project II</a>
+<a href="https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/final-project-part-three.html">Final Project III</a>
+</nav>
 
 # Jennifer Liu’s Data Visualization Portfolio
 
-This is my public portfolio for Telling Stories with Data at Carnegie Mellon University.
+This is my public portfolio for Telling Stories with Data at Carnegie Mellon University. It collects my course work in data visualization, including exploratory analysis, redesigns, and critiques.
 
-Portfolio links:
+**Explore my work:** [Project index](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/dataviz-examples.html) · [Government debt](#assignment-visualizing-government-debt) · [Critique by Design](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/critique-by-design.html) · [Final project](#final-project)
 
-- Web page URL: https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/
-- This repository: https://github.com/JenniferLiu02/Jennifer-visualizationportfolio-templates
-
-# Portfolio
-
-This portfolio collects my course work in data visualization, including exploratory analysis, redesigns, and critiques. 
-
-# About me
+## About Me
 Hi, I'm Jennifer Liu, a graduate student at Carnegie Mellon University's Heinz College, pursuing a Master of Information Systems Management with a concentration in Business Intelligence and Data Analytics (MISM-BIDA), expected to graduate in December 2026.
 
 Before CMU, I studied Supply Chain Management with a minor in Statistics at Rutgers University. That background shapes how I approach data. I like connecting numbers back to real operational decisions, not just building charts for their own sake.
 
 
-# What I hope to learn
+## Learning Goals
 I'm looking to sharpen my ability to turn raw data into visuals that actually persuade and inform — not just ones that look polished. Coming from a supply chain and statistics background, I want to get better at the design side of analytics: choosing the right chart type, using color and layout intentionally, and communicating findings to non-technical audiences.
 
 After graduating, I'm targeting roles in Data Analytics, Business Intelligence, and Supply Chain Analytics, in both the U.S. and Chinese markets. I hope this course gives me a portfolio of concrete, defensible design decisions I can point to in interviews.
 
-# Portfolio
+## Course Projects
 
-# Examples
-You can keep this section for stuff from in-class demos or your other work, or remove it. 
+### Assignment: [Visualizing Government Debt](https://public.tableau.com/app/profile/jennifer.liu4619/viz/OECDDebttoGDPRatios1995-2019_17889178234160/Sheet1)
 
-## Assignment: [Visualizing Government Debt](https://public.tableau.com/app/profile/jennifer.liu4619/viz/OECDDebttoGDPRatios1995-2019_17889178234160/Sheet1)
-
-### Part 2: Exploratory Heatmap
+#### Part 2: Exploratory Heatmap
 [![OECD Debt Heatmap](https://public.tableau.com/static/images/OE/OECDDebttoGDPRatios1995-2019_17889178234160/Sheet1/1.png)](https://public.tableau.com/app/profile/jennifer.liu4619/viz/OECDDebttoGDPRatios1995-2019_17889178234160/Sheet1)
 *Click the heatmap above to interact with the full visualization on Tableau Public.*
 
 <br/>
 
-### Part 3: Redesigned Visualization (2019 Snapshot)
+#### Part 3: Redesigned Visualization (2019 Snapshot)
 [![OECD 2019 Debt Redesign](https://public.tableau.com/static/images/OE/OECDDebttoGDPRatios2019/Sheet12/1.png)](https://public.tableau.com/app/profile/jennifer.liu4619/viz/OECDDebttoGDPRatios2019/Sheet12)
 *Click the chart above to interact with the full visualization on Tableau Public.*
 
-### Reflection Statement
+#### Reflection Statement
 For my final redesign, I wanted to shift the focus from a broad temporal matrix to a clear, high-impact cross-sectional snapshot by identifying which OECD countries faced the most severe fiscal risk in 2019, right before the pandemic. While the complete dataset spans 25 years across dozens of nations, trying to show every country's long-term trend in a single bar chart created massive visual clutter. To solve this, I filtered the timeframe down specifically to 2019 to evaluate the most recent pre-pandemic baseline, while keeping all available reporting countries sorted in descending order by their debt-to-GDP percentages. This structure allowed me to clearly highlight the threshold where national debt crosses the critical 100 percent mark.
 
 Compared to the Part 2 heatmap, I found this sorted horizontal bar chart to be significantly more effective for making direct rank and value comparisons. While the heatmap excelled at showing macro-level color trends across time, it made comparing exact debt ratios between mid-tier countries nearly impossible without constantly checking color keys and cross-referencing axes. In my redesign, I applied a two-color diverging palette with a hard center threshold at 100 percent. By using vibrant orange-red for high-risk nations like Greece, Italy, and Portugal, alongside a calm muted blue for stable economies under 100 percent, the visual narrative becomes instantly readable. Readers can immediately grasp both the extreme outliers and the overall distribution without getting lost in unnecessary multidimensional complexity.
 
-
-## Assignment 3 & 4: [Critique by Design](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/critique-by-design)
+### Assignment 3 & 4: [Critique by Design](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/critique-by-design)
 
 This project critiques the original Makeover Monday visualization, summarizes feedback from two user tests, and presents an interactive Tableau redesign.
 
@@ -64,68 +60,13 @@ For MISM-BIDA classmates thinking about life after CMU, I compare the same eight
 These Numbeo prices are illustrative estimates, not representative city-wide grocery prices.
 
 ---
-## Other stuff you can do (you can remove this section - it's just for your reference.)
 
-### Changing text
+## Sources and Credits
 
-You can change text, like this: 
+The government debt previews link to my published Tableau visualizations. Sources, references, and credits for the other projects are listed on their respective project pages and in the finished story.
 
-**Here's some bold** text.  Here's some *italic* text. Here's some ~~strikethrough~~ text. 
+## AI Acknowledgements
 
-### Creating tables
+For this portfolio cleanup, I used OpenAI Codex to review the site against the assignment rubric, identify broken or misdirected links, remove template instructions, organize headings and navigation, and create a project index. Existing project write-ups, figures, and data were retained.
 
-You can build tables like this: 
-
-| Name         | Type of pet | Favority activity 1 | FA 2   | FA 3            | FA 4                                |
-|--------------|-------------|---------------------|--------|-----------------|-------------------------------------|
-| Eli          | cat         | Sleeping            | Eating | Being pet       | Plotting to overthow dog empire     |
-| Howard       | dog         | You                 | You    | You             | Eating                              |
-| Frankenstein | fish        | Swimming            | Eating | Blowing bubbles | Forgetting                          |
-
-An easy-to-use template generator tool [can be found here](https://www.tablesgenerator.com/markdown_tables)
-
-You can use different headings, like this: 
-
-# Here's a large title (H1)
-## Here's a subtitle (H2)
-### ...and so on (H3)
-You get the idea - just don't forget the space between the # and your title.  `#Title` won't work, but `# Title` will. 
-
-### Adding images
-
-Here's an example of how to add an image to my portfolio.  
-
-![funny dog picture](funny-dog-unsplash.jpg)
-> Photo by <a href="https://unsplash.com/pt-br/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/photos/K4mSJ7kc0As?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-
-Alternately, you can set the size of the image using just a bit of HTML: 
-
-<img src="funny-dog-unsplash.jpg" width="200"/>
-
-Remember that you'll need to upload the image into your repository, or include a link to the image somewhere else.  
-
-### Setting up a separate page
-
-So here's the code you'll need to add to your own site to create a second page. 
-
-1. First, create a new page in your repository (for example, dataviz1.md)
-2. Next, add a link to that page by inserting the following into your readme.md page:
-
-`[title](dataviz)` or `[dataviz](https://cmustudent.github.io/portfolio/dataviz.html)` or `[CMU](https://www.cmu.edu)`
-
-Any of those formats will work. Here's some examples of working links: 
-
-`[title](dataviz)` = [title](dataviz)  
-`[dataviz](https://cmustudent.github.io/portfolio/dataviz.html)` = [dataviz](https://cmustudent.github.io/portfolio/dataviz.html)  
-`[CMU](https://www.cmu.edu)` = [CMU](https://www.cmu.edu)   
-
-Make sure to check these from your publicly accessible URL to make sure they're working correctly (not from the preview tab). 
-
-Looking for more?  A nice Markdown guide [can be found here](https://www.markdownguide.org/cheat-sheet/)
-
-## References
-_List any references you used here._
-
-## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+[Back to top](#jennifer-lius-data-visualization-portfolio) · [Project index](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/dataviz-examples.html) · [GitHub repository](https://github.com/JenniferLiu02/Jennifer-visualizationportfolio-templates)
