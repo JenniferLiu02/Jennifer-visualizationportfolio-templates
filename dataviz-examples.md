@@ -1,13 +1,6 @@
-<nav aria-label="Portfolio navigation" style="display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; margin-bottom: 1.5rem;">
-<a href="https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/">Home</a>
-<a href="https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/dataviz-examples.html">Project Index</a>
-<a href="https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/critique-by-design.html">Critique by Design</a>
-<a href="https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/final-project-part-one.html">Final Project I</a>
-<a href="https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/final-project-part-two.html">Final Project II</a>
-<a href="https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/final-project-part-three.html">Final Project III</a>
-</nav>
+| [home page](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/) | [data viz examples](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/dataviz-examples.html) | [critique by design](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/critique-by-design.html) | [final project I](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/final-project-part-one.html) | [final project II](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/final-project-part-two.html) | [final project III](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/final-project-part-three.html) |
 
-# Data Visualization Projects
+# Data visualization examples
 
 Explore my work in Telling Stories with Data at Carnegie Mellon University. Each project includes visualizations and an explanation of the design process.
 
