@@ -69,6 +69,6 @@ The government debt previews link to my published Tableau visualizations. Source
 
 ## AI acknowledgements
 
-For this portfolio cleanup, I used OpenAI Codex to review the site against the assignment rubric, identify broken or misdirected links, remove template instructions, organize headings and navigation, and create a project index. Existing project write-ups, figures, and data were retained.
+I used ChatGPT/Codex to help polish wording and give me suggestions.
 
 [Back to top](#jennifer-lius-data-visualization-portfolio) · [Project index](https://jenniferliu02.github.io/Jennifer-visualizationportfolio-templates/dataviz-examples.html) · [GitHub repository](https://github.com/JenniferLiu02/Jennifer-visualizationportfolio-templates)
